@@ -32,7 +32,7 @@ Then open browser at [http://localhost:4000/tech/](http://localhost:4000/tech/)
 ../build-and-copy.sh
 
 # Assess changes, commit and push to deploy
-cd ../opcodesolutions.github.io.git
+cd ../../opcodesolutions.github.io
 git diff
 git add .
 git commit -m 'New content'
