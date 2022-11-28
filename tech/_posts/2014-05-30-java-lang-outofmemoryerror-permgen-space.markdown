@@ -8,10 +8,10 @@ When you get an `OutOfMemoryError` with the message **"PermGen space"** (not to 
 
 ## Solution 1. (your best bet). Increase the size of PermGen space
 
-If you have a Java process that uses a lot of classes (lots of jars) or if you have many applications deployed to your application container (Tomcat), you can allocate more memory to that "PermGen space" using the `-XX:MaxPermSize` VM argument. For instance, to allocate 512 MB of RAM to PermGen space, use:
+If you have a Java process that uses a lot of classes (lots of jars) or if you have many applications deployed to your application container (Tomcat), you can allocate more memory to that "PermGen space" using the `-XX:MaxPermSize` VM argument. For instance, to allocate 1024 MB of RAM to PermGen space, use:
 
 ```bash
-java -XX:MaxPermSize=512M ...
+java -XX:MaxPermSize=1024M ...
 ```
 
 ## Solution 2. Restart your application container

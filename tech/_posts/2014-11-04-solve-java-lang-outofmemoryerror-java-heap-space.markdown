@@ -8,10 +8,10 @@ If you get an `OutOfMemoryError` with the message **"Java heap space"** (not to 
 
 ## Solution 1. Allow the JVM to use more memory
 
-With the `-Xmx` JVM argument, you can set the heap size. For instance, you can allow the JVM to use 2 GB (2048 MB) of memory with the following command:
+With the `-Xmx` JVM argument, you can set the heap size. For instance, you can allow the JVM to use 4 GB (4096 MB) of memory with the following command:
 
 ```bash
-$ java -Xmx2048m ...
+$ java -Xmx4096m ...
 ```
 
 ## Solution 2. Improve or fix the application to reduce memory usage
