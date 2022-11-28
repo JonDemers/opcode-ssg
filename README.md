@@ -24,12 +24,12 @@ cd tech
 jekyll clean && jekyll serve
 ```
 
-Then open browser at [http://localhost:4000](http://localhost:4000)
+Then open browser at [http://localhost:4000/tech/](http://localhost:4000/tech/)
 
 ## Deploy content
 
 ```bash
-./build-and-copy.sh
+../build-and-copy.sh
 
 # Assess changes, commit and push to deploy
 cd ../opcodesolutions.github.io.git
