@@ -34,6 +34,7 @@ sudo a2enmod rewrite
 
   # This is for regular HTTPS reverse proxy
   ProxyRequests Off
+  ProxyPreserveHost On
   ProxyPass / https://proxied-host:port/
   ProxyPassReverse / https://proxied-host:port/
 
@@ -52,6 +53,7 @@ It is simpler if the WebSocket is *not* secure:
 
   # This is for regular HTTP reverse proxy
   ProxyRequests Off
+  ProxyPreserveHost On
   ProxyPass / http://proxied-host:port/
   ProxyPassReverse / http://proxied-host:port/
 

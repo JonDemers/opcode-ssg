@@ -47,6 +47,7 @@ So, let’s say you want to have your apache server at `http://host1.example.com
             onkeydown onkeyup onfocus onblur onload \
             onunload onsubmit onreset onselect onchange
 
+        ProxyPreserveHost On
         ProxyPass http://host2.example.com/path2
         ProxyPassReverse http://host2.example.com/path2
         ProxyHTMLEnable On
