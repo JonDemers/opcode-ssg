@@ -21,7 +21,7 @@ cd opcode-ssg
 
 ```bash
 cd tech
-jekyll clean && jekyll serve
+bundle exec jekyll clean && bundle exec jekyll serve
 ```
 
 Then open browser at [http://localhost:4000/tech/](http://localhost:4000/tech/)

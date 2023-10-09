@@ -2,11 +2,9 @@
 
 set -e
 
-cd $(dirname "$0")
+cd $(dirname "$0")/tech
 
-cd tech
-
-jekyll clean && jekyll build
+bundle exec jekyll clean && bundle exec jekyll build
 
 cd ..
 
