@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
+permalink: /tech/contact/
 ---
 
 ## To Contact OpCode Solutions Inc.

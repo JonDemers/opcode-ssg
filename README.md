@@ -23,7 +23,7 @@ cd opcode-ssg
 bundle exec jekyll clean && bundle exec jekyll serve
 ```
 
-Then open browser at [http://localhost:4000/tech/](http://localhost:4000/tech/)
+Then open browser at [http://localhost:4000/](http://localhost:4000/)
 
 ## Deploy content
 

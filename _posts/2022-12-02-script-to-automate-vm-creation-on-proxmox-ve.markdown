@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Script to automate VM creation on Proxmox VE"
-permalink: /script-to-automate-vm-creation-on-proxmox-ve/
+permalink: /tech/script-to-automate-vm-creation-on-proxmox-ve/
 ---
 
 This script will create a VM on Proxmox VE without requiring any user interation. Upon completion, you'll be able to ssh to the VM with your ssh key, just like you'd do with a VM hosted on a major cloud provider like AWS.

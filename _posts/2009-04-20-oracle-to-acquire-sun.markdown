@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Oracle to Acquire Sun"
-permalink: /oracle-to-acquire-sun/
+permalink: /tech/oracle-to-acquire-sun/
 ---
 
 After IBM, now is the turn to Oracle. [Oracle buys Sun](https://www.reuters.com/article/newsOne/idUSN2038153320090420) and pays $7.4 billion for that acquisition ($9.50 per share), $5.6 billion if we take into account Sun's cash. Is that a good thing or a bad thing for the Java community? Probably a good thing as it will allow Sun's project to benefit from Oracle's technologies. But only future will tell.

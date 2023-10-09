@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Debian -bash: envsubst: command not found"
-permalink: /debian-bash-envsubst-command-not-found/
+permalink: /tech/debian-bash-envsubst-command-not-found/
 ---
 
 ## Solution

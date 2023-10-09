@@ -22,7 +22,7 @@ title: OpCode Tech
 email: jdemers@opcodesolutions.com
 description: >- # this means to ignore newlines until "baseurl:"
   Optimize Your Processes
-baseurl: "/tech" # the subpath of your site, e.g. /blog
+# baseurl: "/tech" # the subpath of your site, e.g. /blog
 url: "https://opcodesolutions.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: JonDemers

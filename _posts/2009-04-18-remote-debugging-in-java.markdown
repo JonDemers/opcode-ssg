@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remote Debugging in Java"
-permalink: /remote-debugging-in-java/
+permalink: /tech/remote-debugging-in-java/
 ---
 
 One thing people ask me from time to time is how to debug a remote Java application. This can be very useful when you experience problems at customer site, but cannot reproduce them in a development environment. We all know logs files do not always contain all information required to solve the issues. In such case, remote debugging can be very useful.

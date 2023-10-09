@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTTPS Wildcard Subdomain: DNS + Apache + Tomcat Config"
-permalink: /https-wildcard-subdomain-dns-apache-tomcat-config/
+permalink: /tech/https-wildcard-subdomain-dns-apache-tomcat-config/
 ---
 
 I recently had to configure HTTPS on a wildcard subdomain with Apache HTTP server as reverse proxy to a Tomcat backend. I had few more requirements:

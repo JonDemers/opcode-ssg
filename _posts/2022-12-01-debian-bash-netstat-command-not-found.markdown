@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Debian -bash: netstat: command not found"
-permalink: /debian-bash-netstat-command-not-found/
+permalink: /tech/debian-bash-netstat-command-not-found/
 ---
 
 ## Solution

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ubuntu Apache Reverse Proxy Rewrite HTML Links"
-permalink: /ubuntu-apache-reverse-proxy-rewrite-html-links/
+permalink: /tech/ubuntu-apache-reverse-proxy-rewrite-html-links/
 ---
 
 I just wasted few hours on this, so I will share a few tips. If you want to setup a reverse proxy and **rewrite links in html** pages, you can use Apache module [mod_proxy_html](https://httpd.apache.org/docs/current/mod/mod_proxy_html.html).

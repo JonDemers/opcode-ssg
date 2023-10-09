@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Increase disk size of Debian cloud image"
-permalink: /increase-disk-size-of-debian-cloud-image/
+permalink: /tech/increase-disk-size-of-debian-cloud-image/
 ---
 
 Generic Debian cloud images come with small disk size by default: **2GB**. We can resize/increase the disk storage after the VM is created, but this is not convenient because we'd have to do this for each VM we create.

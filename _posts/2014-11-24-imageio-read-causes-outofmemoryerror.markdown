@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ImageIO.read() causes OutOfMemoryError"
-permalink: /imageio-read-causes-outofmemoryerror/
+permalink: /tech/imageio-read-causes-outofmemoryerror/
 ---
 
 ## The problem
