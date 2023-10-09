@@ -42,7 +42,9 @@ permalink: /:title:output_ext
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - README.md
+  - build-and-copy.sh
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

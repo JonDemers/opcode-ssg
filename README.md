@@ -20,7 +20,6 @@ cd opcode-ssg
 ## Create content and serve locally
 
 ```bash
-cd tech
 bundle exec jekyll clean && bundle exec jekyll serve
 ```
 
@@ -29,10 +28,10 @@ Then open browser at [http://localhost:4000/tech/](http://localhost:4000/tech/)
 ## Deploy content
 
 ```bash
-../build-and-copy.sh
+./build-and-copy.sh
 
 # Assess changes, commit and push to deploy
-cd ../../opcodesolutions.github.io
+cd ../opcodesolutions.github.io
 git diff
 git add .
 git commit -m 'New content'
