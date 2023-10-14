@@ -1,159 +1,97 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: page
+title: Hébergement
+description: "Ayez l'esprit tranquille avec l'hébergement autogéré. Nous nous occupons de la sauvegarde de vos données, les mises à jour système et plus."
+lang: fr
+permalink: /fr/hebergement/
+---
+  <div class="container">
 
-<meta name="description" content="Ayez l'esprit tranquille avec l'hébergement autogéré. Nous nous occupons de la sauvegarde de vos données, les mises à jour système et plus.">
-<meta name="author" content="Jonathan Demers">
+    <h1>Hébergement Autogéré</h1>
+    <p>Nous avons développé votre application et nous savons comment l'héberger. Avec l'hébergement autogéré, nous prenons en
+      charge tous les aspects techniques et d'entrerien. Nous nous assurons que votre application fonctionne toujours bien et que
+      vos données sont en sécurité. Voici les options de l'hébergement autogéré.</p>
+    <br />
 
-<link rel="shortcut icon" href="../../favicon.ico">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="text-center">Serveurs Partagés</th>
+              <th class="text-center">Serveurs Dédiés</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="vert-align">Prix</td>
+              <td class="vert-align text-center">20 $ / mois<br /> <small>(sans contrat)</small></td>
+              <td class="vert-align text-center">À partir de 50 $ / mois<br /> <small>(payable un an à l'avance)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Entièrement géré (par nous)<br /> <small>Aucune aptitude technique requise (par
+                  vous)</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Sauvegarde et réplication des données<br /> <small>Protège contre la perte de
+                  données</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Mises à jour régulières des systèmes<br /> <small>Maintient votre application en
+                  sécurité</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Certificat SSL<br /> <small>Accès sécurisé https</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Utilisation légère<br /> <small>Maximum 1 requête / seconde</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Utilisation intensive<br /> <small>Jusqu'à des centaines de requêtes / seconde</small></td>
+              <td class="vert-align text-center"></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Nom de domaine à votre choix<br /> <small>https://votredomaine.com</small></td>
+              <td class="vert-align text-center"></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Environment isolé</td>
+              <td class="vert-align text-center"></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
-<title>Hébergement - Solutions OpCode</title>
+    <h2>Hébergement dans vos locaux</h2>
+    <p>Si vous avez déjà toutes les infrastructures nécessaires pour héberger des applications, vous pouvez en tirer parti.
+      Nous vous fournirons l'application que vous pourrez déployer dans votre environnement de production. Dans ce cas, vous serez
+      responsable des tâches de maintenance comme la sauvegarde vos données (backup), les mises à jour systèmes, etc. En termes
+      d'infrastructure, vous aurez besoin de:</p>
+    <ul>
+      <li>Base de données (MySQL)</li>
+      <li>JVM (Oracle Java)</li>
+      <li>J2EE Web Container (Tomcat)</li>
+      <li>Nom de domaine, serveur DNS et certificat SSL</li>
+      <li>Nous recommendons aussi le serveur web Apache (comme proxy) et Ubuntu LTS</li>
+    </ul>
 
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="../../style.css" />
-
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Changer la navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
-				</button>
-				<a title="Solutions OpCode" class="navbar-brand" href="../index.html">OpCode</a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="../solutions/index.html">Solutions</a></li>
-					<li class="dropdown"><a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Démo <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="../demo/index.html">Screenshots</a></li>
-							<li><a href="../technologie/index.html">Technologie</a></li>
-						</ul></li>
-					<li><a href="../prix/index.html">Nos Prix</a></li>
-					<li class="active"><a href="index.html">Hébergement</a></li>
-					<li><a href="../contact/index.html">Contact</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="../../en/hosting/index.html">English</a></li>
-					<li><div class="navbar-form"><a class="btn btn-primary" href="https://clients.opcodesolutions.com/" role="button"><b>Espace Client</b></a></div></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-
-		<h1>Hébergement Autogéré</h1>
-		<p>Nous avons développé votre application et nous savons comment l'héberger. Avec l'hébergement autogéré, nous prenons en
-			charge tous les aspects techniques et d'entrerien. Nous nous assurons que votre application fonctionne toujours bien et que
-			vos données sont en sécurité. Voici les options de l'hébergement autogéré.</p>
-		<br />
-
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
-				<table class="table table-hover">
-					<thead>
-						<tr>
-							<th></th>
-							<th class="text-center">Serveurs Partagés</th>
-							<th class="text-center">Serveurs Dédiés</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="vert-align">Prix</td>
-							<td class="vert-align text-center">20 $ / mois<br /> <small>(sans contrat)</small></td>
-							<td class="vert-align text-center">À partir de 50 $ / mois<br /> <small>(payable un an à l'avance)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Entièrement géré (par nous)<br /> <small>Aucune aptitude technique requise (par
-									vous)</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Sauvegarde et réplication des données<br /> <small>Protège contre la perte de
-									données</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Mises à jour régulières des systèmes<br /> <small>Maintient votre application en
-									sécurité</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Certificat SSL<br /> <small>Accès sécurisé https</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Utilisation légère<br /> <small>Maximum 1 requête / seconde</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Utilisation intensive<br /> <small>Jusqu'à des centaines de requêtes / seconde</small></td>
-							<td class="vert-align text-center"></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Nom de domaine à votre choix<br /> <small>https://votredomaine.com</small></td>
-							<td class="vert-align text-center"></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Environment isolé</td>
-							<td class="vert-align text-center"></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-
-		<h2>Hébergement dans vos locaux</h2>
-		<p>Si vous avez déjà toutes les infrastructures nécessaires pour héberger des applications, vous pouvez en tirer parti.
-			Nous vous fournirons l'application que vous pourrez déployer dans votre environnement de production. Dans ce cas, vous serez
-			responsable des tâches de maintenance comme la sauvegarde vos données (backup), les mises à jour systèmes, etc. En termes
-			d'infrastructure, vous aurez besoin de:</p>
-		<ul>
-			<li>Base de données (MySQL)</li>
-			<li>JVM (Oracle Java)</li>
-			<li>J2EE Web Container (Tomcat)</li>
-			<li>Nom de domaine, serveur DNS et certificat SSL</li>
-			<li>Nous recommendons aussi le serveur web Apache (comme proxy) et Ubuntu LTS</li>
-		</ul>
-
-		<br />
-		<p>
-			<a class="btn btn-primary" href="../contact/index.html" role="button">Contactez nous &raquo;</a>
-		</p>
-	</div>
-
-	<div class="container">
-		<hr>
-		<footer class="text-muted">
-			<p class="pull-left">Ce site est accessible par mobile</p>
-			<p class="pull-right">&copy; Solutions OpCode 2014</p>
-		</footer>
-	</div>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <br />
+    <p>
+      <a class="btn btn-primary" href="/fr/contact/" role="button">Contactez nous &raquo;</a>
+    </p>
+  </div>

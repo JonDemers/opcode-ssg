@@ -1,0 +1,35 @@
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+{%- if lang != 'fr' -%}{%- assign lang = 'en' -%}{%- endif -%}
+{%- assign lang_meta = site.site_meta.lang[lang] -%}
+{%- assign lang_base_url = '/' | append: lang | append: '/' -%}
+
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages[lang] | default: default_paths -%}
+{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">{{ lang_meta.toggle_nav | escape }}</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+            class="icon-bar"></span>
+        </button>
+        <a title="{{ lang_meta.title | escape }}" class="navbar-brand" href="{{ lang_base_url }}"><span {% if page.url == lang_base_url %} style="color: white"{% endif %}>OpCode</span></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        {% if titles_size > 0 %}
+        <ul class="nav navbar-nav">
+          {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {% if my_page.title %}
+          <li {% if page.url == my_page.url %} class="active"{% endif %}><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+          {%- endif -%}
+          {% endfor %}
+        </ul>
+        {% endif %}
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/{{ lang_meta.other_lang }}/">{{ lang_meta.other_lang_desc | escape }}</a></li>
+          <li><div class="navbar-form"><a class="btn btn-primary" href="https://clients.opcodesolutions.com/" role="button" target="_blank"><b>{{ lang_meta.client_login | escape }}</b></a></div></li>
+        </ul>
+      </div>
+    </div>
+  </div>

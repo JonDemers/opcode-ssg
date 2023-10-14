@@ -48,11 +48,11 @@ If you do not want to wait for an OOM or if you just want to see what is in memo
 
 ### Option 1. Use [VisualVM](https://visualvm.github.io/)
 
-Open VisualVM (`JDK_HOME/bin/jvisualvm`), right-click on the process on the left pane and select Heap Dump. That’s it.
+Open VisualVM (`JDK_HOME/bin/jvisualvm`), right-click on the process on the left pane and select Heap Dump. That's it.
 
 ### Option 2. Use command line tools
 
-If you do not have a graphical environment and can’t use vnc ([VisualVM](https://visualvm.github.io/) needs a graphical environment), use [jps](https://docs.oracle.com/en/java/javase/17/docs/specs/man/jps.html) and [jmap](https://docs.oracle.com/en/java/javase/17/docs/specs/man/jmap.html) to generate the heap dump file. Those programs are also located in `JDK_HOME/bin/`.
+If you do not have a graphical environment and can't use vnc ([VisualVM](https://visualvm.github.io/) needs a graphical environment), use [jps](https://docs.oracle.com/en/java/javase/17/docs/specs/man/jps.html) and [jmap](https://docs.oracle.com/en/java/javase/17/docs/specs/man/jmap.html) to generate the heap dump file. Those programs are also located in `JDK_HOME/bin/`.
 
 ```bash
 $ jps

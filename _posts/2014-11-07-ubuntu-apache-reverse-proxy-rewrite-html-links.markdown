@@ -20,7 +20,7 @@ $ sudo a2enmod xml2enc
 
 In **Ubuntu 14.04 LTS**, it does not work "out of the box", because some standard config is missing when enabling mod_proxy_html. More specifically, the [ProxyHTMLLinks](https://httpd.apache.org/docs/current/mod/mod_proxy_html.html#proxyhtmllinks) directives are missing in Ubuntu 14.04. I say "missing", because those directives are included by default in earlier releases and in other distros (in a file called proxy_html.conf). Also, pay particular attention to the directives [ProxyHTMLEnable](https://httpd.apache.org/docs/current/mod/mod_proxy_html.html#proxyhtmlenable), [ProxyHTMLExtended](https://httpd.apache.org/docs/current/mod/mod_proxy_html.html#proxyhtmlextended) and [SetOutputFilter](https://httpd.apache.org/docs/current/mod/core.html#setoutputfilter).
 
-So, let’s say you want to have your apache server at `http://host1.example.com/path1` to serve (proxy) the content of the server at `http://host2.example.com/path2` and **rewrite HTML links**. Here is the config that works for me on Ubuntu 14.04 LTS.
+So, let's say you want to have your apache server at `http://host1.example.com/path1` to serve (proxy) the content of the server at `http://host2.example.com/path2` and **rewrite HTML links**. Here is the config that works for me on Ubuntu 14.04 LTS.
 
 ```apache
 <VirtualHost *:80>

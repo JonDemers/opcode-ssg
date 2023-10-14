@@ -8,7 +8,7 @@ One great feature of [VisualVM](https://visualvm.dev.java.net/) is that it can r
 
 ## Why VisualVM is slow with heap dump
 
-Another great feature of VisualVM is that you can read a huge heap dump file and VisualVm will consume a minimal amount of memory to do so. For instance, you will be able to read a 8 Gigabytes heap dump file with VisualVM running on a development workstation having only 2 Gigabytes of RAM. In order to achieve that, VisualVM will parse the heap dump file and will create a work file on disk in the default system temp folder (/tmp by default on Linux). In theory that’s great, but in practice, VisualVM becomes painfully slow because it constantly have to do disk I/O’s to process the information.
+Another great feature of VisualVM is that you can read a huge heap dump file and VisualVm will consume a minimal amount of memory to do so. For instance, you will be able to read a 8 Gigabytes heap dump file with VisualVM running on a development workstation having only 2 Gigabytes of RAM. In order to achieve that, VisualVM will parse the heap dump file and will create a work file on disk in the default system temp folder (/tmp by default on Linux). In theory that's great, but in practice, VisualVM becomes painfully slow because it constantly have to do disk I/O's to process the information.
 
 This behavior is even more frustrating if you happen to have a server with 12 Gigabytes of RAM available for you. A simple solution for that is to create a ramdisk and tell VisualVM to use that ramdisk as the tmp folder.
 

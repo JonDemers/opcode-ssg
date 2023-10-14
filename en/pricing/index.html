@@ -1,175 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: page
+title: Pricing
+description: "We have very competitive prices. See how we calculate our prices."
+lang: en
+permalink: /en/pricing/
+---
+  <div class="container">
+    <h1>Pricing</h1>
+    <p>
+      Our clients have very different needs and it is not possible to come up with a unique price for everyone. However, some
+      features are requested by many clients and we came up with a straightforward (and fair) way to quote a price. The table below
+      shows how we calculate our prices. <a href="/en/contact/">Contact us</a> to get an estimate for your project.
+    </p>
+    <br />
 
-<meta name="description" content="We have very competitive prices. See how we calculate our prices.">
-<meta name="author" content="Jonathan Demers">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th class="text-center">Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="vert-align">New project</td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$1000</strong></span><br /> <small>(one
+                  time fee)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Meet in person<br /> <small>Montréal only</small></td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">User management system
+                <ul>
+                  <li><small>Username/password protection</small></li>
+                  <li><small>Unlimited users and roles</small></li>
+                  <li><small>Permission access control</small></li>
+                </ul>
+              </td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Access from any device<br /> <small>Desktop, tablet, mobile (see <a href="/en/demo/">demo</a>)
+              </small></td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Fast navigation<br /> <small>Below 1 sec, nine times out of ten, measured on server</small></td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Polished design</td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Extra DB table<br /> <small>Includes create-read-update-delete user interface</small></td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$500</strong></span> <small>(per table)</small><br />+
+                <span class="text-ok"><strong>$50</strong></span> <small>(per column)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Accept online payments<br /> <small>Requires PayPal account (free)</small></td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$500</strong></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Any other custom feature
+                <ul>
+                  <li><small>Data migration</small></li>
+                  <li><small>Integration with 3<sup>rd</sup> party system
+                  </small></li>
+                  <li><small>Batch processing</small></li>
+                  <li><small>And more</small></li>
+                </ul>
+              </td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>Variable</strong></span><br /> <small>(<a
+                  href="/en/contact/">contact us</a>)
+              </small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Test environment<br /> <small>For you to test and approve your new system</small></td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Bug fixes and minor adjustments</td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Performance optimisations<br /> <small>When needed</small></td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Access to source code</td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Production environment</td>
+              <td class="vert-align text-center"><span class="text-ok"><strong>Variable</strong></span><br /> <small>(see
+                  <a href="/en/hosting/">hosting options</a>)
+              </small></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
-<link rel="shortcut icon" href="../../favicon.ico">
-
-<title>Pricing - OpCode Solutions</title>
-
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="../../style.css" />
-
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
-				</button>
-				<a title="OpCode Solutions" class="navbar-brand" href="../index.html">OpCode</a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="../solutions/index.html">Solutions</a></li>
-					<li class="dropdown"><a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Demo <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="../demo/index.html">Screenshots</a></li>
-							<li><a href="../technology/index.html">Technology</a></li>
-						</ul></li>
-					<li class="active"><a href="index.html">Pricing</a></li>
-					<li><a href="../hosting/index.html">Hosting</a></li>
-					<li><a href="../contact/index.html">Contact</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="../../fr/prix/index.html">Français</a></li>
-					<li><div class="navbar-form"><a class="btn btn-primary" href="https://clients.opcodesolutions.com/" role="button"><b>Client Login</b></a></div></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<h1>Pricing</h1>
-		<p>
-			Our clients have very different needs and it is not possible to come up with a unique price for everyone. However, some
-			features are requested by many clients and we came up with a straightforward (and fair) way to quote a price. The table below
-			shows how we calculate our prices. <a href="../contact/index.html">Contact us</a> to get an estimate for your project.
-		</p>
-		<br />
-
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
-				<table class="table table-hover">
-					<thead>
-						<tr>
-							<th>Feature</th>
-							<th class="text-center">Cost</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="vert-align">New project</td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$1000</strong></span><br /> <small>(one
-									time fee)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Meet in person<br /> <small>Montréal only</small></td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">User management system
-								<ul>
-									<li><small>Username/password protection</small></li>
-									<li><small>Unlimited users and roles</small></li>
-									<li><small>Permission access control</small></li>
-								</ul>
-							</td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Access from any device<br /> <small>Desktop, tablet, mobile (see <a href="../demo/index.html">demo</a>)
-							</small></td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Fast navigation<br /> <small>Below 1 sec, nine times out of ten, measured on server</small></td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Polished design</td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Extra DB table<br /> <small>Includes create-read-update-delete user interface</small></td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$500</strong></span> <small>(per table)</small><br />+
-								<span class="text-ok"><strong>$50</strong></span> <small>(per column)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Accept online payments<br /> <small>Requires PayPal account (free)</small></td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$500</strong></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Any other custom feature
-								<ul>
-									<li><small>Data migration</small></li>
-									<li><small>Integration with 3<sup>rd</sup> party system
-									</small></li>
-									<li><small>Batch processing</small></li>
-									<li><small>And more</small></li>
-								</ul>
-							</td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>Variable</strong></span><br /> <small>(<a
-									href="../contact/index.html">contact us</a>)
-							</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Test environment<br /> <small>For you to test and approve your new system</small></td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Bug fixes and minor adjustments</td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Performance optimisations<br /> <small>When needed</small></td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Access to source code</td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>$0</strong></span><br /> <small>(included)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Production environment</td>
-							<td class="vert-align text-center"><span class="text-ok"><strong>Variable</strong></span><br /> <small>(see
-									<a href="../hosting/index.html">hosting options</a>)
-							</small></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-
-		<br />
-		<p>
-			<a class="btn btn-primary" href="../hosting/index.html" role="button">Hosting &raquo;</a>
-		</p>
-	</div>
-
-	<div class="container">
-		<hr>
-		<footer class="text-muted">
-			<p class="pull-left">Mobile-Friendly Website</p>
-			<p class="pull-right">&copy; OpCode Solutions 2014</p>
-		</footer>
-	</div>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <br />
+    <p>
+      <a class="btn btn-primary" href="/en/hosting/" role="button">Hosting &raquo;</a>
+    </p>
+  </div>

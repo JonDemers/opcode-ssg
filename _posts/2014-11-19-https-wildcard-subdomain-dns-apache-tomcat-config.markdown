@@ -12,7 +12,7 @@ I recently had to configure HTTPS on a wildcard subdomain with Apache HTTP serve
   - etc.
 1. I want to have a **PHP** wiki on the subdirectory `/wiki` and I want to send the rest of the traffic to Tomcat.
 1. **Tomcat** needs to know the subdomain (hostname) and will serve content accordingly.
-1. I don’t know the subdomains in advance because they are **chosen by users**, just like *.wordpress.com
+1. I don't know the subdomains in advance because they are **chosen by users**, just like *.wordpress.com
 
 Few parts were not trivial, so I will share my setup.
 
@@ -104,7 +104,7 @@ SSLStrictSNIVHostCheck off
 
 ## Tomcat Wildcard Subdomain Configuration
 
-Below you’ll find the configuration of Tomcat (in server.xml), which is quite standard. Actually, we do not need to define any *"wildcard"*, we just define a `defaultHost` in the `Engine` element. Then we deploy a `ROOT.war` in the webapps directory (`/opt/example.com/tomcat7/webapps`) to serve all content at the root context path.
+Below you'll find the configuration of Tomcat (in server.xml), which is quite standard. Actually, we do not need to define any *"wildcard"*, we just define a `defaultHost` in the `Engine` element. Then we deploy a `ROOT.war` in the webapps directory (`/opt/example.com/tomcat7/webapps`) to serve all content at the root context path.
 
 ```xml
 <Service name="example">
@@ -129,13 +129,13 @@ With this configuration, all content will be sent to Tomcat with "localhost" as 
 - **`X-Forwarded-Host`: The original host requested by the client in the Host HTTP request header.**
 - `X-Forwarded-Server`: The hostname of the proxy server.
 
-So in Tomcat (or any other servlet container), just use the Java code below to get the value of that header `X-Forwarded-Host` and you’ll know the subdomain.
+So in Tomcat (or any other servlet container), just use the Java code below to get the value of that header `X-Forwarded-Host` and you'll know the subdomain.
 
 ```java
 String subdomain = request.getHeader("X-Forwarded-Host");
 ```
 
-Alternatively, you may also use the [ProxyPreserveHost](https://httpd.apache.org/docs/current/mod/mod_proxy.html#proxypreservehost) On directive in Apache configuration and you should be able to get the hostname (subdomain) normally in Tomcat. *NOTE: I haven’t tested that setup.*
+Alternatively, you may also use the [ProxyPreserveHost](https://httpd.apache.org/docs/current/mod/mod_proxy.html#proxypreservehost) On directive in Apache configuration and you should be able to get the hostname (subdomain) normally in Tomcat. *NOTE: I haven't tested that setup.*
 
 ```java
 String subdomain = request.getServerName();
@@ -143,6 +143,6 @@ String subdomain = request.getServerName();
 
 ## Bonus: Wildcard SSL Certificate
 
-Of course you’ll need a wildcard SSL certificate. Those are usually very expensive, but [Namecheap resells Comodo wildcard certificate at very good price](https://www.namecheap.com/security/ssl-certificates/comodo/positivessl-wildcard.aspx). No, I do not have any interest in namecheap, they just happen to be very good at what they do 🙂
+Of course you'll need a wildcard SSL certificate. Those are usually very expensive, but [Namecheap resells Comodo wildcard certificate at very good price](https://www.namecheap.com/security/ssl-certificates/comodo/positivessl-wildcard.aspx). No, I do not have any interest in namecheap, they just happen to be very good at what they do 🙂
 
 *Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*

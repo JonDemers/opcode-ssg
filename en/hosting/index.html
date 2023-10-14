@@ -1,154 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: page
+title: Hosting
+description: "Get peace of mind with managed hosting. We take care of backing up your data, applying system updates, managing load and more."
+lang: en
+permalink: /en/hosting/
+---
+  <div class="container">
 
-<meta name="description" content="Get peace of mind with managed hosting. We take care of backing up your data, applying system updates, managing load and more.">
-<meta name="author" content="Jonathan Demers">
+    <h1>Managed Hosting</h1>
+    <p>We developped your application and we know how to host it. With managed hosting, we take care of everything. We ensure
+      your application always runs smoothly and your data is always safe. See the options below for managed hosting.</p>
+    <br />
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th></th>
+              <th class="text-center">Shared Servers</th>
+              <th class="text-center">Dedicated Servers</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="vert-align">Price</td>
+              <td class="vert-align text-center">$20 / month<br /> <small>(cancel or upgrade anytime)</small></td>
+              <td class="vert-align text-center">Starts at $50 / month<br /> <small>(payable one year in advance)</small></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Fully managed<br /> <small>No technical knowledge required</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Data backup and replication<br /> <small>Protects against data loss</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Regular system updates<br /> <small>Keeps your application safe</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">SSL certificate<br /> <small>Secure https access</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Light usage<br /> <small>Maximum 1 request / second</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Custom domain name<br /> <small>https://yourdomain.com</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span> <small>(SNI)</small></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Heavy usage<br /> <small>Up to hundreds of requests / second</small></td>
+              <td class="vert-align text-center"></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+            <tr>
+              <td class="vert-align">Isolated environment</td>
+              <td class="vert-align text-center"></td>
+              <td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
-<link rel="shortcut icon" href="../../favicon.ico">
+    <h2>Hosting at your Premises</h2>
+    <p>If you already have all the infrastructure required to host your application, you may want to leverage it. We will
+      provide you with the application package that you can deploy in your production environment. In that case, you will be
+      responsible of maintenance tasks like backing-up your data, applying system patches, etc. In terms of infrastructure, you
+      need:</p>
+    <ul>
+      <li>Database (MySQL)</li>
+      <li>JVM (Oracle Java)</li>
+      <li>J2EE Web Container (Tomcat)</li>
+      <li>Domain name, DNS and SSL certificate</li>
+      <li>We also recommend using apache HTTP server (as proxy) and Ubuntu LTS</li>
+    </ul>
 
-<title>Hosting - OpCode Solutions</title>
-
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
-<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="../../style.css" />
-
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
-				</button>
-				<a title="OpCode Solutions" class="navbar-brand" href="../index.html">OpCode</a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="../solutions/index.html">Solutions</a></li>
-					<li class="dropdown"><a href="index.html#" class="dropdown-toggle" data-toggle="dropdown">Demo <b class="caret"></b></a>
-						<ul class="dropdown-menu">
-							<li><a href="../demo/index.html">Screenshots</a></li>
-							<li><a href="../technology/index.html">Technology</a></li>
-						</ul></li>
-					<li><a href="../pricing/index.html">Pricing</a></li>
-					<li class="active"><a href="index.html">Hosting</a></li>
-					<li><a href="../contact/index.html">Contact</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="../../fr/hebergement/index.html">Français</a></li>
-					<li><div class="navbar-form"><a class="btn btn-primary" href="https://clients.opcodesolutions.com/" role="button"><b>Client Login</b></a></div></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-
-		<h1>Managed Hosting</h1>
-		<p>We developped your application and we know how to host it. With managed hosting, we take care of everything. We ensure
-			your application always runs smoothly and your data is always safe. See the options below for managed hosting.</p>
-		<br />
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
-				<table class="table table-hover">
-					<thead>
-						<tr>
-							<th></th>
-							<th class="text-center">Shared Servers</th>
-							<th class="text-center">Dedicated Servers</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="vert-align">Price</td>
-							<td class="vert-align text-center">$20 / month<br /> <small>(cancel or upgrade anytime)</small></td>
-							<td class="vert-align text-center">Starts at $50 / month<br /> <small>(payable one year in advance)</small></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Fully managed<br /> <small>No technical knowledge required</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Data backup and replication<br /> <small>Protects against data loss</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Regular system updates<br /> <small>Keeps your application safe</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">SSL certificate<br /> <small>Secure https access</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Light usage<br /> <small>Maximum 1 request / second</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Custom domain name<br /> <small>https://yourdomain.com</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span> <small>(SNI)</small></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Heavy usage<br /> <small>Up to hundreds of requests / second</small></td>
-							<td class="vert-align text-center"></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-						<tr>
-							<td class="vert-align">Isolated environment</td>
-							<td class="vert-align text-center"></td>
-							<td class="vert-align text-center"><span class="glyphicon glyphicon-ok bigger"></span></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-
-		<h2>Hosting at your Premises</h2>
-		<p>If you already have all the infrastructure required to host your application, you may want to leverage it. We will
-			provide you with the application package that you can deploy in your production environment. In that case, you will be
-			responsible of maintenance tasks like backing-up your data, applying system patches, etc. In terms of infrastructure, you
-			need:</p>
-		<ul>
-			<li>Database (MySQL)</li>
-			<li>JVM (Oracle Java)</li>
-			<li>J2EE Web Container (Tomcat)</li>
-			<li>Domain name, DNS and SSL certificate</li>
-			<li>We also recommend using apache HTTP server (as proxy) and Ubuntu LTS</li>
-		</ul>
-
-		<br />
-		<p>
-			<a class="btn btn-primary" href="../contact/index.html" role="button">Contact us &raquo;</a>
-		</p>
-	</div>
-
-	<div class="container">
-		<hr>
-		<footer class="text-muted">
-			<p class="pull-left">Mobile-Friendly Website</p>
-			<p class="pull-right">&copy; OpCode Solutions 2014</p>
-		</footer>
-	</div>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <br />
+    <p>
+      <a class="btn btn-primary" href="/en/contact/" role="button">Contact us &raquo;</a>
+    </p>
+  </div>

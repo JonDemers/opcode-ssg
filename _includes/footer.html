@@ -1,0 +1,13 @@
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+{%- if lang != 'fr' -%}{%- assign lang = 'en' -%}{%- endif -%}
+{%- assign lang_meta = site.site_meta.lang[lang] -%}
+  <div class="container">
+    <hr>
+    <footer class="text-muted">
+      <p class="pull-left">{{ lang_meta.mobile_friendly | escape }}</p>
+      <p class="pull-right">&copy; {{ lang_meta.title | escape }} 2023</p>
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>

@@ -1,40 +1,40 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-	padding-top: 50px;
-	padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .jumbotron {
-	background: radial-gradient(rgba(66, 139, 202, 0.1),
-		rgba(66, 139, 202, 0.6));
+  background: radial-gradient(rgba(66, 139, 202, 0.1),
+    rgba(66, 139, 202, 0.6));
 }
 
 .text-ok {
-	color: #5cb85c;
+  color: #5cb85c;
 }
 
 .glyphicon-ok {
-	color: #5cb85c;
+  color: #5cb85c;
 }
 
 .bigger {
-	font-size: 1.6em;
+  font-size: 1.6em;
 }
 
 .table tbody>tr>td.vert-align {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 .logo_thumbnail {
-	width: 125px;
-	display: inline-block;
-	margin: 10px 0px;
-	text-align: center;
-	vertical-align: middle;
+  width: 125px;
+  display: inline-block;
+  margin: 10px 0px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .img_bordered {
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }

@@ -21,7 +21,7 @@ Now that I am prepared I just need to wait for the *"Standard daily maintenance"
 1. [MySQL dump/restore](https://www.thegeekstuff.com/2008/09/backup-and-restore-mysql-database-using-mysqldump/) from EC2 to RDS (3 databases)
 1. Copy the configuration files with JDBC url pointing to RDS (3 files)
 1. [Prevent MySQL from starting during boot](https://askubuntu.com/questions/40072/how-to-stop-apache2-mysql-from-starting-automatically-as-computer-starts): echo manual > /etc/init/mysql.override
-1. sudo reboot (I want to verify that MySQL on EC2 won’t start after a reboot)
+1. sudo reboot (I want to verify that MySQL on EC2 won't start after a reboot)
 
 Everything went fine. After reboot, the MySQL instance on EC2 was not started, as expected. The Tomcat webapps were fine as well and there is more free RAM for Tomcat.
 
