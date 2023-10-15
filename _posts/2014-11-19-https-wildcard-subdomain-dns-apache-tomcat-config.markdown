@@ -145,4 +145,4 @@ String subdomain = request.getServerName();
 
 Of course you'll need a wildcard SSL certificate. Those are usually very expensive, but [Namecheap resells Comodo wildcard certificate at very good price](https://www.namecheap.com/security/ssl-certificates/comodo/positivessl-wildcard.aspx). No, I do not have any interest in namecheap, they just happen to be very good at what they do 🙂
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

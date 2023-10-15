@@ -130,4 +130,4 @@ From Oracle's website: [How do I create a resized copy of an image?](https://www
 
 For this particular problem, I did not need to produce a heap dump, because the code was small enough. With a few tests and a few searches on Google, I could figure-out what was happening. However, if you have no idea where the `OutOfMemoryError` comes from, you may want to read this article: [How to fix java.lang.OutOfMemoryError: Java heap space](/tech/solve-java-lang-outofmemoryerror-java-heap-space/).
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

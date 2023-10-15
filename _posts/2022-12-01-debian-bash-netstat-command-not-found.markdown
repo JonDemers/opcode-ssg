@@ -10,4 +10,4 @@ permalink: /tech/debian-bash-netstat-command-not-found/
 sudo apt install net-tools
 ```
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

@@ -10,4 +10,4 @@ permalink: /tech/debian-bash-envsubst-command-not-found/
 sudo apt install gettext-base
 ```
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

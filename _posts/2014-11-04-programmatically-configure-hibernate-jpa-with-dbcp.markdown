@@ -63,4 +63,4 @@ public class HibernateJPAWithDBCP {
 
 With DBCP, all my deadlock issues disappeared. Thank you [ASF](https://www.apache.org/).
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

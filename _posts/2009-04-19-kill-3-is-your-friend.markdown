@@ -22,4 +22,4 @@ That feature can be very useful when the application seems to freeze or when you
 
 This can also be helpful to diagnose performance bottlenecks. Suppose you are load testing an application and it does not deliver the expected throughput, but the CPU usage is not the problem. For instance, with kill -3 you will notice right away that the size of the jdbc connection pool is not big enough and all threads are waiting on it for a connection to free.
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

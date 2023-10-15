@@ -29,4 +29,4 @@ For those webapps, I have [uptime monitoring at one minute interval with Pingdom
 
 *OpCode is UP again at 12/22/2014 08:25:36PM, after **5m of downtime**.*
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

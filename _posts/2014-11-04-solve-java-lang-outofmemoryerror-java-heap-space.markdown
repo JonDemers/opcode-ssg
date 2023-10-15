@@ -73,4 +73,4 @@ Alternatively, you can also use [jhat](https://docs.oracle.com/javase/7/docs/tec
 
 You can also contact my [application development company](https://opcodesolutions.com/) and I can personally help you with those kind of issues 🙂
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

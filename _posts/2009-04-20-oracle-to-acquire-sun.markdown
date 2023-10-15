@@ -10,4 +10,4 @@ With Java, GlassFish, MySQL, OpenOffice, Solaris and its cloud computing service
 
 If we only consider Java, I have to admit that I rather see Oracle acquiring Sun than IBM doing it. The reason is simple, IBM already offers a Java runtime and they are competitors in that field. An acquisition by IBM would reduce the competition in that areas, which is always a bad thing for customers. In my opinion, Sun's JVM largely beats IBM's one, but it would still be a bad thing to see one of them die to the benefit of the other.
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

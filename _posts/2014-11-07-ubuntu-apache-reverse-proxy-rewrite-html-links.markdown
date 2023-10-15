@@ -58,4 +58,4 @@ So, let's say you want to have your apache server at `http://host1.example.com/p
 </VirtualHost>
 ```
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*

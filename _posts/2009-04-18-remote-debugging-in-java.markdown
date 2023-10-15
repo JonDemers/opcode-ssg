@@ -22,4 +22,4 @@ In the Host field, you enter the host name or IP of the machine running the Java
 
 Note that remote debugging also works nicely with SSH tunnels.
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing "Jonathan Demers")*
+*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*
