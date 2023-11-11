@@ -8,6 +8,4 @@ permalink: /tech/contact/
 
 Please visit [https://opcodesolutions.com/en/contact/](https://opcodesolutions.com/en/contact/)
 
-## To Contact Jonathan Demers, Eng.
-
-Send an email to [jdemers@opcodesolutions.com](mailto:jdemers@opcodesolutions.com) (I have a very good spam filter)
+Or send an email to [info@opcodesolutions.com](mailto:info@opcodesolutions.com)

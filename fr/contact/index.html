@@ -5,29 +5,147 @@ description: "Contactez-nous pour obtenir un estimé gratuit pour votre projet: 
 lang: fr
 permalink: /fr/contact/
 ---
-  <div class="container">
-    <h1>Contact</h1>
-    <br />
-    <div class="row">
-      <div class="col-md-4">
-        <address>
-          <strong>Solutions OpCode, Inc.</strong><br> 4070 Rue de Louisbourg<br> Montréal, QC<br>H4J 1K5<br>
-          <abbr title="Courriel">C:</abbr> <a href="mailto:info@opcodesolutions.com">info@opcodesolutions.com</a><br>
-          <abbr title="Téléphone">T:</abbr> (514) 360-1620<br>
-        </address>
-        <br>
-        <address>
-          Fondateur: <strong>Jonathan Demers, ing.</strong><br /> <abbr title="Courriel">C:</abbr> <a href="mailto:jdemers@opcodesolutions.com">jdemers@opcodesolutions.com</a><br />
-          LinkedIn: <a title="Jonathan Demers" href="https://www.linkedin.com/in/jonathan-demers-ing/" target="_self">linkedin.com/in/jonathan-demers-ing</a>
-        </address>
-      </div>
+<div class="container">
+  <h1>Contactez-nous</h1>
+  <br />
+  <div class="row">
+    <div class="col-md-3">
+      <script>
+        function writeMailtoLink(encoded) {
+          var mailto = atob(atob(atob(encoded)));
+          document.write('<a href="mailto:' + mailto + '" target="_blank">' + mailto + '</a>');
+        }
+      </script>
+      <address>
+        <strong>Demande générale</strong>
+        <p>
+          <script>writeMailtoLink("WVZjMWJXSXdRblpqUjA1MldrZFdlbUl5ZURGa1IyeDJZbTVOZFZreU9YUT0=");</script>
+        </p>
 
-      <div class="col-md-8">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11181.849544989382!2d-73.68269299999997!3d45.52089999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9186f31ce1b2d%3A0xdd74017c4203697!2sOpCode+Solutions+Inc.!5e0!3m2!1sen!2sca!4v1408381413653"
-          width="100%" height="240" frameborder="0" style="border: 0"></iframe>
-      </div>
+        <strong>Support TI</strong>
+        <p>
+          <script>writeMailtoLink("WXpOV2QyTkhPWGxrUlVKMlkwZE9kbHBIVm5waU1uZ3haRWRzZG1KdVRYVlpNamww");</script>
+        </p>
+
+        <strong>Facturation</strong>
+        <p>
+          <script>writeMailtoLink("V20xR2FtUklWbmxaV0ZKd1lqSTFRV0l6UW1waU1sSnNZekk1YzJSWVVuQmlNalY2VEcxT2RtSlJQVDA9");</script>
+        </p>
+
+        <strong>Adresse postale</strong>
+        <p>
+          Solutions OpCode, Inc.<br>
+          4070 Rue de Louisbourg<br>
+          Montréal, QC<br>
+          H4J 1K5
+        </p>
+
+        <strong>Téléphone</strong>
+        <p>+1 (514) 360-1620</p>
+
+        <strong>Fondateur</strong>
+        <p>
+          Jonathan Demers, ing.<br />
+          <a title="Jonathan Demers" href="https://www.linkedin.com/in/jonathan-demers-ing/"
+            target="_blank">linkedin.com/in/jonathan-demers-ing/</a>
+        </p>
+      </address>
+    </div>
+    <div class="col-md-9" style="border-left: 1px solid #eee;"">
+      <form class="form-horizontal" role="form" id="contact-form" method="POST"
+        action="https://web-tools.opcodesolutions.com/mailer" target="_blank">
+
+        <div class="form-group">
+          <label for="name" class="col-sm-2 control-label"><b class="text-danger">*</b> Nom</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="name" id="name" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="col-sm-2 control-label"><b class="text-danger">*</b> Courriel</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" name="email" id="email" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject" class="col-sm-2 control-label"><b class="text-danger">*</b> Sujet</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" name="subject" id="subject" required
+              value="Solutions OpCode - Demande générale">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="col-sm-2 control-label"><b class="text-danger">*</b> Message</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" name="message" id="message" rows="8" required>
+Bonjour,
+
+J'aimerais obtenir plus d'informations au sujet de XXXXXXXXX.
+
+Pouvez-vous me revenir svp.
+
+Merci
+</textarea>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <input type="submit" class="btn btn-success" role="button" value="Envoyer">
+          </div>
+        </div>
+
+        <input type='hidden' name='recipient' id='recipient' value='opcode'>
+        <input type='hidden' name='source' id='source' value='Website opcodesolutions.com Contact form'>
+        <input type='hidden' name='page-load-timestamp' id='page-load-timestamp' value='No Javascript'>
+        <input type='hidden' name='page-submit-timestamp' id='page-submit-timestamp' value='No Javascript'>
+        <input type='hidden' name='page-load-to-submit-time' id='page-load-to-submit-time' value='No Javascript'>
+
+      </form>
+      <script>
+        function getTimestampString(date) {
+          var timestampPart = 'timestampPart';
+          var timeZonePart = 'timeZonePart';
+          try {
+            timestampPart = date.toLocaleString("en-CA");
+          } catch (e) {
+            timestampPart = 'Failed to compute timestampPart: ' + e;
+          }
+          try {
+            timeZonePart = Intl.DateTimeFormat().resolvedOptions().timeZone;
+          } catch (e) {
+            timeZonePart = 'Failed to compute timeZonePart: ' + e;
+          }
+          return timestampPart + ' (' + timeZonePart + ')';
+        }
+        var pageLoadTimestamp = new Date();
+        document.getElementById('page-load-timestamp').value = getTimestampString(pageLoadTimestamp);
+        document.getElementById('contact-form').onsubmit = function () {
+          var subjectElement = document.getElementById('subject');
+          var name = document.getElementById('name').value
+          if (!subjectElement.value.endsWith(name)) {
+            subjectElement.value += ' - ' + document.getElementById('name').value;
+          }
+          var pageSubmitTimestamp = new Date();
+          var pageLoadToSubmitMillis = pageSubmitTimestamp.getTime() - pageLoadTimestamp.getTime();
+          document.getElementById('page-submit-timestamp').value = getTimestampString(pageSubmitTimestamp);
+          document.getElementById('page-load-to-submit-time').value = (pageLoadToSubmitMillis / 1000.0) + " seconds";
+          return true;
+        }
+      </script>
     </div>
   </div>
-
-  <br />
+</div>
+<br>
+<hr>
+<div class="container">
+  <div class="row">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178982.06970781877!2d-73.69833477112023!3d45.49810304397687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc92280c2794e0d%3A0xcd7d1bbc1e18d888!2s4070%20Rue%20de%20Louisbourg%2C%20Montr%C3%A9al%2C%20QC%20H4J%201K5%2C%20Canada!5e0!3m2!1sen!2sus!4v1699723286394!5m2!1sen!2sus"
+      width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
