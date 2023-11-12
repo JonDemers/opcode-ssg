@@ -1,0 +1,84 @@
+<form class="form-horizontal" role="form" id="contact-form" method="POST"
+  action="https://web-tools.opcodesolutions.com/mailer" target="_blank">
+
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label"><b class="text-danger">*</b> Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="name" id="name" required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="email" class="col-sm-2 control-label"><b class="text-danger">*</b> Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" name="email" id="email" required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="company" class="col-sm-2 control-label">Company</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="company" id="company" required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="subject" class="col-sm-2 control-label"><b class="text-danger">*</b> Subject</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="subject" id="subject" required
+        value="{{ page.contact-form-subject | 'OpCode Solutions - General Inquiry' | escape }}">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="message" class="col-sm-2 control-label"><b class="text-danger">*</b> Message</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" name="message" id="message" rows="8" required>
+{{ page.contact-form-message | escape }}</textarea>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <input type="submit" class="btn btn-success" role="button" value="Send">
+    </div>
+  </div>
+
+  <input type='hidden' name='recipient' id='recipient' value='opcode'>
+  <input type='hidden' name='source' id='source' value='Website opcodesolutions.com Contact form'>
+  <input type='hidden' name='page-load-timestamp' id='page-load-timestamp' value='No Javascript'>
+  <input type='hidden' name='page-submit-timestamp' id='page-submit-timestamp' value='No Javascript'>
+  <input type='hidden' name='page-load-to-submit-time' id='page-load-to-submit-time' value='No Javascript'>
+
+</form>
+<script>
+  function getTimestampString(date) {
+    var timestampPart = 'timestampPart';
+    var timeZonePart = 'timeZonePart';
+    try {
+      timestampPart = date.toLocaleString("en-CA");
+    } catch (e) {
+      timestampPart = 'Failed to compute timestampPart: ' + e;
+    }
+    try {
+      timeZonePart = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    } catch (e) {
+      timeZonePart = 'Failed to compute timeZonePart: ' + e;
+    }
+    return timestampPart + ' (' + timeZonePart + ')';
+  }
+  var pageLoadTimestamp = new Date();
+  document.getElementById('page-load-timestamp').value = getTimestampString(pageLoadTimestamp);
+  document.getElementById('contact-form').onsubmit = function () {
+    var subjectElement = document.getElementById('subject');
+    var name = document.getElementById('name').value
+    if (!subjectElement.value.endsWith(name)) {
+      subjectElement.value += ' - ' + document.getElementById('name').value;
+    }
+    var pageSubmitTimestamp = new Date();
+    var pageLoadToSubmitMillis = pageSubmitTimestamp.getTime() - pageLoadTimestamp.getTime();
+    document.getElementById('page-submit-timestamp').value = getTimestampString(pageSubmitTimestamp);
+    document.getElementById('page-load-to-submit-time').value = (pageLoadToSubmitMillis / 1000.0) + " seconds";
+    return true;
+  }
+</script>

@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>{{ page.title | escape }}</h1>
+        <h2>{{ page.description | escape }}</h2>
+        <p><small>{{ page.summary | escape }}</small></p>
+        <span><a href="#start-your-free-trial" class="btn btn-success btn-lg" role="button">Try now &raquo;</a></span>
+    </div>
+</div>
+
+<div class="container">
+    {{ content }}
+</div>

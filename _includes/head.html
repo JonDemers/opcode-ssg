@@ -30,4 +30,10 @@
 {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}
 {% endif %}
+<script>
+  function writeMailtoLink(encoded) {
+    var mailto = atob(atob(atob(encoded)));
+    document.write('<a href="mailto:' + mailto + '" target="_blank">' + mailto + '</a>');
+  }
+</script>
 </head>
