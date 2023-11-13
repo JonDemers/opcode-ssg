@@ -26,7 +26,7 @@
     <label for="subject" class="col-sm-2 control-label"><b class="text-danger">*</b> Subject</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" name="subject" id="subject" required
-        value="{{ page.contact-form-subject | 'OpCode Solutions - General Inquiry' | escape }}">
+        value="{{ page.contact-form-subject | escape }}">
     </div>
   </div>
 
@@ -44,11 +44,11 @@
     </div>
   </div>
 
-  <input type='hidden' name='recipient' id='recipient' value='opcode'>
-  <input type='hidden' name='source' id='source' value='Website opcodesolutions.com Contact form'>
   <input type='hidden' name='page-load-timestamp' id='page-load-timestamp' value='No Javascript'>
   <input type='hidden' name='page-submit-timestamp' id='page-submit-timestamp' value='No Javascript'>
   <input type='hidden' name='page-load-to-submit-time' id='page-load-to-submit-time' value='No Javascript'>
+  <input type='hidden' name='recipient' id='recipient' value='opcode'>
+  <input type='hidden' name='source' id='source' value='{{ page.permalink | escape }}'>
 
 </form>
 <script>
@@ -68,6 +68,7 @@
     return timestampPart + ' (' + timeZonePart + ')';
   }
   var pageLoadTimestamp = new Date();
+  document.getElementById('source').value = window.location.href + ' ';
   document.getElementById('page-load-timestamp').value = getTimestampString(pageLoadTimestamp);
   document.getElementById('contact-form').onsubmit = function () {
     var subjectElement = document.getElementById('subject');
