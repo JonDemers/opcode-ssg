@@ -21,7 +21,7 @@ permalink: /en/saas/file-transfer/secure-file-sharing-solution/
 Feel confident in the authenticity of your file transfers. Our solution ensures that every interaction is authenticated, providing a secure and reliable channel for sharing sensitive data with your clients.
 
 ### Encrypted Communication
-Security is at the forefront of our priorities. Experience file sharing with military-grade encryption, ensuring the confidentiality and integrity of your data throughout the entire transfer process.
+Security is at the forefront of our priorities. Experience file sharing with enterprise-grade encryption, ensuring the confidentiality and integrity of your data throughout the entire transfer process.
 
 ### Reliable Performance
 Your business demands dependability. Count on us for consistent and reliable file transfers. Our SaaS solution is engineered to deliver your files promptly, contributing to a smoother workflow and enhanced client interactions.
