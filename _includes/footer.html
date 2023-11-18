@@ -29,17 +29,15 @@
     } else {
       document.getElementById('optimal-browsing').style = "";
     }
-    if (document.cookie.indexOf("optimal-browsing=accept") >= 0) {
-      gtag('consent', 'update', {
-        'ad_storage': 'granted',
-        'analytics_storage': 'granted'
-      });
-    }
   }
   function acceptOptimalBrowsing() {
     var expires = new Date();
     expires.setFullYear(expires.getFullYear() + 1);
     document.cookie = 'optimal-browsing=accept; path=/; expires=' + expires.toUTCString() + ';';
+    gtag('consent', 'update', {
+      'ad_storage': 'granted',
+      'analytics_storage': 'granted'
+    });
     processOptimalBrowsingPreference();
   }
   function declineOptimalBrowsing() {
