@@ -1,13 +1,59 @@
 {%- assign lang = page.lang | default: site.lang | default: 'en' -%}
 {%- if lang != 'fr' -%}{%- assign lang = 'en' -%}{%- endif -%}
 {%- assign lang_meta = site.site_meta.lang[lang] -%}
+<div class="container">
+  <hr>
+  <footer class="text-muted">
+    <p class="pull-left"><a title="Privacy Policy" href="/en/privacy-policy/" class="text-muted">Privacy Policy</a></p>
+    <p class="pull-right">&copy; {{ lang_meta.title | escape }} 2023</p>
+  </footer>
+</div>
+<nav id="optimal-browsing" class="navbar navbar-inverse navbar-fixed-bottom">
   <div class="container">
-    <hr>
-    <footer class="text-muted">
-      <p class="pull-left"><a title="Privacy Policy" href="/en/privacy-policy/" class="text-muted">Privacy Policy</a></p>
-      <p class="pull-right">&copy; {{ lang_meta.title | escape }} 2023</p>
-    </footer>
+    <div class="navbar-text">
+      <p class="lead" style="color: white">Optimal Browsing Technologies Consent</p>
+      <p><strong>We use <i>Optimal Browsing Technologies</i> to enhance your user experience and improve our service.
+          By clicking "Accept" you agree to the use of these technologies. If you do not wish to proceed, click
+          "Decline."</strong></p>
+      <p><a title="Privacy Policy" href="/en/privacy-policy/">Privacy Policy</a></p>
+      <p><button type="button" class="btn btn-primary navbar-btn" onclick="acceptOptimalBrowsing()">Accept</button>
+        <button type="button" class="btn btn-primary navbar-btn" onclick="declineOptimalBrowsing()">Decline</button>
+      </p>
+    </div>
   </div>
+</nav>
+<script>
+  function processOptimalBrowsingPreference() {
+    if (document.cookie.indexOf("optimal-browsing=") >= 0) {
+      document.getElementById('optimal-browsing').style = "display: none;";
+    } else {
+      document.getElementById('optimal-browsing').style = "";
+    }
+    if (document.cookie.indexOf("optimal-browsing=accept") >= 0) {
+      gtag('consent', 'update', {
+        'ad_storage': 'granted',
+        'analytics_storage': 'granted'
+      });
+    }
+  }
+  function acceptOptimalBrowsing() {
+    var expires = new Date();
+    expires.setFullYear(expires.getFullYear() + 1);
+    document.cookie = 'optimal-browsing=accept; path=/; expires=' + expires.toUTCString() + ';';
+    processOptimalBrowsingPreference();
+  }
+  function declineOptimalBrowsing() {
+    document.cookie = 'optimal-browsing=decline; path=/';
+    processOptimalBrowsingPreference();
+  }
+  function resetOptimalBrowsing() {
+    document.cookie = "optimal-browsing=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    processOptimalBrowsingPreference();
+  }
+  processOptimalBrowsingPreference();
+</script>
 
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+  integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>

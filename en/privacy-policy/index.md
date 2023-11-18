@@ -28,6 +28,8 @@ This information is gathered for routine administration and maintenance purposes
 
 We utilize cookies to store information about your preferences and browsing history. Cookies enhance your experience by providing customized content. You have the option to adjust your browser settings to refuse cookies, but please note that this may impact your ability to use certain features of our website.
 
+<button type="button" class="btn btn-primary" onclick="resetOptimalBrowsing()">Reset Preferences</button>
+
 ## Advertisement and Other Third Parties
 
 Third-party advertisers and partners may employ cookies, scripts, and web beacons to track visitor activities on our website. These technologies are subject to the privacy policies of the third parties, and we have no control over their use.
