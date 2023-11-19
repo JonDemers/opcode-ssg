@@ -10,18 +10,32 @@ site_meta:
       title: "OpCode Solutions"
       description: "Optimize Your Processes"
       toggle_nav: "Toggle navigation"
+      development: "Development"
+      saas: "SaaS"
       client_login: "Client Login"
       other_lang: "fr"
       other_lang_desc: "Français"
-      mobile_friendly: "Mobile-Friendly Website"
+      privacy_policy: "Privacy Policy"
+      optimal_browsing:
+        title: "Optimal Browsing Technologies"
+        description: 'We use <i>Optimal Browsing Technologies</i> to enhance your user experience and improve our service. By clicking "Accept" you agree to the use of these technologies. If you do not wish to proceed, click "Decline."'
+        accept: "Accept"
+        decline: "Decline"
     fr:
       title: "Solutions OpCode"
       description: "Optimisez vos processus"
       toggle_nav: "Changer la navigation"
+      development: "Développement"
+      saas: "SaaS"
       client_login: "Espace Client"
       other_lang: "en"
       other_lang_desc: "English"
-      mobile_friendly: "Ce site est accessible par mobile"
+      privacy_policy: "Politique de confidentialité"
+      optimal_browsing:
+        title: "Technologies de navigation optimales"
+        description: "Nous utilisons des <i>Technologies de navigation optimales</i> pour améliorer votre expérience utilisateur et améliorer notre service. En cliquant sur « Accepter », vous acceptez l'utilisation de ces technologies. Si vous ne souhaitez pas continuer, cliquez sur « Refuser »."
+        accept: "Accepter"
+        decline: "Refuser"
 
 # Build settings
 
@@ -62,21 +76,32 @@ minima:
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
 #
-header_pages:
+main_pages:
+  development:
+    en:
+      - en/solutions/index.html
+      - en/demo/index.html
+      - en/pricing/index.html
+      - en/hosting/index.html
+    fr:
+      - fr/solutions/index.html
+      - fr/demo/index.html
+      - fr/prix/index.html
+      - fr/hebergement/index.html
+  saas:
+    en:
+      - en/saas/file-transfer/secure-file-sharing-solution/index.md
+    fr:
+      - en/saas/file-transfer/secure-file-sharing-solution/index.md
   en:
-    - en/solutions/index.html
-    - en/demo/index.html
-    - en/pricing/index.html
-    - en/hosting/index.html
     - tech/index.md
     - en/contact/index.html
   fr:
-    - fr/solutions/index.html
-    - fr/demo/index.html
-    - fr/prix/index.html
-    - fr/hebergement/index.html
     - tech/index.md
     - fr/contact/index.html
+  privacy_policy:
+    en: en/privacy-policy/index.md
+    fr: fr/politique-de-confidentialite/index.md
 
 # Set to `true` to show excerpts on the homepage.
 #

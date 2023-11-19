@@ -3,9 +3,6 @@
 {%- assign lang_meta = site.site_meta.lang[lang] -%}
 {%- assign lang_base_url = '/' | append: lang | append: '/' -%}
 
-{%- assign default_paths = site.pages | map: "path" -%}
-{%- assign page_paths = site.header_pages[lang] | default: default_paths -%}
-{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -17,17 +14,50 @@
           page.url==lang_base_url %} style="color: white" {% endif %}>OpCode</span></a>
     </div>
     <div class="navbar-collapse collapse">
-      {% if titles_size > 0 %}
       <ul class="nav navbar-nav">
-        {%- for path in page_paths -%}
+
+        {%- assign dev_page_paths = site.main_pages.development[lang] -%}
+        {%- assign dev_class = '' -%}
+        {%- for path in dev_page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
-        {% if my_page.title %}
+        {%- if page.url==my_page.url -%}{%- assign dev_class = 'active' -%}{% endif -%}
+        {%- endfor -%}
+        <li class="dropdown {{ dev_class }}">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+            aria-expanded="false">{{ lang_meta.development | escape }} <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            {%- for path in dev_page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            <li {% if page.url==my_page.url %} class="active" {% endif %}><a href="{{ my_page.url | relative_url }}">{{
+                my_page.title | escape }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+
+        {%- assign saas_page_paths = site.main_pages.saas[lang] -%}
+        {%- assign saas_class = '' -%}
+        {%- for path in saas_page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if page.url==my_page.url -%}{%- assign saas_class = 'active' -%}{% endif -%}
+        {%- endfor -%}
+        <li class="dropdown {{ saas_class }}">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+            aria-expanded="false">{{ lang_meta.saas | escape }} <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            {%- for path in saas_page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            <li {% if page.url==my_page.url %} class="active" {% endif %}><a href="{{ my_page.url | relative_url }}">{{
+                my_page.title | escape }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+
+        {%- for path in site.main_pages[lang] -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
         <li {% if page.url==my_page.url %} class="active" {% endif %}><a href="{{ my_page.url | relative_url }}">{{
             my_page.title | escape }}</a></li>
-        {%- endif -%}
         {% endfor %}
       </ul>
-      {% endif %}
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/{{ lang_meta.other_lang }}/">{{ lang_meta.other_lang_desc | escape }}</a></li>
         <li>

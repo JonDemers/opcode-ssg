@@ -2,7 +2,7 @@
 layout: page-jumbotron
 title: Effortless File Transfer Solution
 description: "Simplify Your Client Collaborations with Ease"
-summary: "Welcome to our Effortless File Transfer SaaS solution! Whether you’re a solo professional or part of a medium-sized organization, we understand the importance of simplicity and efficiency in your file transfers with clients. Our platform is designed to make every file transfer a breeze, ensuring seamless collaboration that leaves a lasting impression."
+summary: "Welcome to our Effortless File Transfer SaaS solution! Whether you're a solo professional or part of a medium-sized organization, we understand the importance of simplicity and efficiency in your file transfers with clients. Our platform is designed to make every file transfer a breeze, ensuring seamless collaboration that leaves a lasting impression."
 contact-form-subject: "Effortless File Transfer Solution - Free Trial Request"
 contact-form-message: |
   Hi,

@@ -4,21 +4,26 @@
 <div class="container">
   <hr>
   <footer class="text-muted">
-    <p class="pull-left"><a title="Privacy Policy" href="/en/privacy-policy/" class="text-muted">Privacy Policy</a></p>
+    {%- assign privacy_policy_path = site.main_pages.privacy_policy[lang] -%}
+    {%- assign privacy_policy_page = site.pages | where: "path", privacy_policy_path | first -%}
+    {%- assign privacy_policy_url = privacy_policy_page.url | relative_url -%}
+    {%- assign privacy_policy_text = lang_meta.privacy_policy | escape -%}
+    <p class="pull-left"><a title="{{ privacy_policy_text }}" href="{{ privacy_policy_url }}" class="text-muted">{{
+        privacy_policy_text }}</a></p>
     <p class="pull-right">&copy; {{ lang_meta.title | escape }} 2023</p>
   </footer>
 </div>
 <nav id="optimal-browsing" class="navbar navbar-inverse navbar-fixed-bottom">
   <div class="container">
     <div class="navbar-text">
-      <p class="lead" style="color: white">Optimal Browsing Technologies Consent</p>
-      <p><strong>We use <i>Optimal Browsing Technologies</i> to enhance your user experience and improve our service.
-          By clicking "Accept" you agree to the use of these technologies. If you do not wish to proceed, click
-          "Decline."</strong></p>
-      <p><a title="Privacy Policy" href="/en/privacy-policy/">Privacy Policy</a></p>
-      <p><button type="button" class="btn btn-primary navbar-btn" onclick="acceptOptimalBrowsing()">Accept</button>
-        <button type="button" class="btn btn-primary navbar-btn" onclick="declineOptimalBrowsing()">Decline</button>
-      </p>
+      {%- assign optimal_browsing = lang_meta.optimal_browsing -%}
+      <p class="lead" style="color: white">{{ optimal_browsing.title }}</p>
+      <p><strong>{{optimal_browsing.description}}</strong></p>
+      <p><a title="{{ privacy_policy_text }}" href="{{ privacy_policy_url }}">{{ privacy_policy_text }}</a></p>
+      <p class="pull-left"><button type="button" class="btn btn-primary navbar-btn"
+          onclick="acceptOptimalBrowsing()">{{optimal_browsing.accept}}</button></p>
+      <p class="pull-right"><button type="button" class="btn btn-primary navbar-btn"
+          onclick="declineOptimalBrowsing()">{{optimal_browsing.decline}}</button></p>
     </div>
   </div>
 </nav>
