@@ -92,7 +92,7 @@ main_pages:
     en:
       - en/saas/file-transfer/secure-file-sharing-solution/index.md
     fr:
-      - en/saas/file-transfer/secure-file-sharing-solution/index.md
+      - fr/saas/transfert-de-fichiers/solution-de-partage-de-fichiers-securise/index.md
   en:
     - tech/index.md
     - en/contact/index.html

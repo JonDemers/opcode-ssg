@@ -2,14 +2,15 @@
 layout: page-jumbotron
 title: Affordable File Sharing Solution
 description: "Elevate Your Client Collaborations Without Breaking the Bank"
-summary: "Welcome to our Affordable File Sharing SaaS solution! Whether you're a solo professional or part of a medium-sized organization, our platform is dedicated to making high-quality file sharing accessible to everyone. Experience professional, feature-rich client collaborations, all starting at an unbeatable price of just $9 per month."
+summary: "Welcome to our Affordable File Sharing SaaS solution! Whether you're a solo professional or part of a medium-sized organization, our platform is dedicated to making high-quality file sharing accessible to everyone. Experience professional, feature-rich client collaborations, all starting at an unbeatable price of just $19 per month."
+try-now: "Try now"
 contact-form-subject: "Affordable File Sharing Solution - Free Trial Request"
 contact-form-message: |
   Hi,
 
   I'd like to get a Free Trial of your "Affordable File Sharing Solution".
 
-  Looking forward to hear back form you.
+  Looking forward to hear back from you.
 
   Regards
 lang: en
@@ -21,7 +22,7 @@ permalink: /en/saas/file-transfer/affordable-file-sharing-solution/
 Enjoy top-tier file sharing with a suite of professional features. From organized folders to high-speed transfers, our platform provides everything you need for seamless client collaborations.
 
 ### Affordable Pricing
-Elevate your client collaborations without breaking the bank. Our pricing starts at just $9 per month, making it the perfect solution for businesses of all sizes.
+Elevate your client collaborations without breaking the bank. Our pricing starts at just $19 per month, making it the perfect solution for businesses of all sizes.
 
 ### Additional Features:
 
@@ -40,7 +41,7 @@ Elevate your client collaborations without breaking the bank. Our pricing starts
 
 ## Affordable Excellence Starts Here!
 
-Discover the perfect balance of quality and affordability. Elevate your client collaborations with our Affordable File Sharing Solution starting at just $9/month.
+Discover the perfect balance of quality and affordability. Elevate your client collaborations with our Affordable File Sharing Solution starting at just $19/month.
 
 [Sign Up Now](#start-your-free-trial) for a free trial and experience the future of affordable and feature-rich file sharing! Trust our SaaS solution to be your partner in client collaboration without the hefty price tag.
 

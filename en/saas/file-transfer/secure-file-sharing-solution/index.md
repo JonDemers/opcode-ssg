@@ -3,13 +3,14 @@ layout: page-jumbotron
 title: Secure File Sharing Solution
 description: "Elevate Your Client Collaboration with Peace of Mind"
 summary: "Welcome to our Secure File Sharing SaaS solution! Whether you are a solo professional or part of a medium-sized organization, we recognize the crucial need for secure and efficient file transfers with your clients. Our platform has been meticulously crafted to empower your business with a seamless and secure file sharing experience."
+try-now: "Try now"
 contact-form-subject: "Secure File Sharing Solution - Free Trial Request"
 contact-form-message: |
   Hi,
 
   I'd like to get a Free Trial of your "Secure File Sharing Solution".
 
-  Looking forward to hear back form you.
+  Looking forward to hear back from you.
 
   Regards
 lang: en
@@ -42,7 +43,7 @@ Simplify your file sharing processes. Our user-friendly interface is designed wi
 - **Large File Support:** Transfer large files effortlessly without compromising speed.
 - **High-Speed Transfers:** Experience swift and efficient file transfers.
 - **Web-Based Convenience:** Access and manage your files conveniently through our web-based platform.
-- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $9 per month.
+- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $19 per month.
 
 ## Get Started Today!
 

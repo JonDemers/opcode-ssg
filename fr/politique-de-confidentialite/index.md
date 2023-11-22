@@ -16,7 +16,7 @@ Cette politique de confidentialité décrit les politiques et procédures de Sol
 
 ## Collecte d'informations de routine
 
-Nous collectons des informations de base sur les visiteurs de notre site Web, y compris, mais sans s'y limiter :
+Nous collectons des informations de base sur les visiteurs de notre site Web, y compris, mais sans s'y limiter:
 
 - Adresses IP
 - Détails du navigateur
@@ -43,7 +43,7 @@ Bien que nous utilisions des moyens commercialement acceptables pour protéger v
 
 ## Utilisation de vos données personnelles
 
-Nous pouvons utiliser vos données personnelles à diverses fins, notamment, mais sans s'y limiter :
+Nous pouvons utiliser vos données personnelles à diverses fins, notamment, mais sans s'y limiter:
 
 - Fournir et maintenir notre service
 - Gérer votre compte
@@ -71,7 +71,7 @@ Nous pouvons divulguer vos données personnelles dans les situations suivantes :
 - Forces de l'ordre
 - Autres exigences légales
 
-Nous pouvons partager vos informations avec :
+Nous pouvons partager vos informations avec:
 
 - Les fournisseurs de services
 - Partenaires affiliés

@@ -32,8 +32,8 @@ Once the test is running, we may realize we do not get much visits to our site. 
 ### Advertisement #1
 
 - **Short Headline:** [Affordable File Sharing Solution](/en/saas/file-transfer/affordable-file-sharing-solution/)
-- **Long Headline:** Affordable File Sharing: Start at $9/Month for Professional, Feature-Rich Client Collaborations.
-- **Description:** Experience top-tier file sharing without breaking the bank. Elevate client collaborations starting at just $9/month!
+- **Long Headline:** Affordable File Sharing: Start at $19/Month for Professional, Feature-Rich Client Collaborations.
+- **Description:** Experience top-tier file sharing without breaking the bank. Elevate client collaborations starting at just $19/month!
 
 ### Advertisement #2
 

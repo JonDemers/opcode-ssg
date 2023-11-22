@@ -3,13 +3,14 @@ layout: page-jumbotron
 title: Effortless File Transfer Solution
 description: "Simplify Your Client Collaborations with Ease"
 summary: "Welcome to our Effortless File Transfer SaaS solution! Whether you're a solo professional or part of a medium-sized organization, we understand the importance of simplicity and efficiency in your file transfers with clients. Our platform is designed to make every file transfer a breeze, ensuring seamless collaboration that leaves a lasting impression."
+try-now: "Try now"
 contact-form-subject: "Effortless File Transfer Solution - Free Trial Request"
 contact-form-message: |
   Hi,
 
   I'd like to get a Free Trial of your "Effortless File Transfer Solution".
 
-  Looking forward to hear back form you.
+  Looking forward to hear back from you.
 
   Regards
 lang: en
@@ -39,7 +40,7 @@ Simplicity is key. Our user-friendly interface is crafted for easy navigation an
 - **Large File Support:** Transfer large files effortlessly without compromising speed.
 - **High-Speed Transfers:** Experience swift and efficient file transfers.
 - **Web-Based Convenience:** Access and manage your files conveniently through our web-based platform.
-- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $9 per month.
+- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $19 per month.
 
 ## Streamline Your Workflow Today!
 

@@ -3,13 +3,14 @@ layout: page-jumbotron
 title: Scalable File Sharing Solution
 description: "Seamlessly Scale Your File Sharing Capabilities"
 summary: "Welcome to our Scalable File Sharing SaaS solution! Whether you are a solo professional or part of a growing organization with up to 100 employees, our platform is tailored to meet your expanding file sharing needs. Experience the freedom of limitless collaboration with clients while ensuring a seamless and scalable solution."
+try-now: "Try now"
 contact-form-subject: "Scalable File Sharing Solution - Free Trial Request"
 contact-form-message: |
   Hi,
 
   I'd like to get a Free Trial of your "Scalable File Sharing Solution".
 
-  Looking forward to hear back form you.
+  Looking forward to hear back from you.
 
   Regards
 lang: en
@@ -36,7 +37,7 @@ Embrace growth without limitations. Our scalable file sharing solution adapts to
 - **Large File Support:** Transfer large files effortlessly without compromising speed.
 - **High-Speed Transfers:** Experience swift and efficient file transfers.
 - **Web-Based Convenience:** Access and manage your files conveniently through our web-based platform.
-- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $9 per month.
+- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $19 per month.
 
 ## Experience Limitless Collaboration Today!
 

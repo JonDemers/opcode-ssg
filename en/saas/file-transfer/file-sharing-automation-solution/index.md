@@ -3,13 +3,14 @@ layout: page-jumbotron
 title: File Sharing Automation Solution
 description: "Boost Productivity with Effortless File Sharing Automation"
 summary: "Welcome to our File Sharing Automation SaaS solution! Whether you're a solo professional or part of a medium-sized organization, our platform is designed to supercharge your productivity through intelligent file transfer automations. Experience seamless integration, high-speed transfers, and efficient client collaborations with our cutting-edge solution."
+try-now: "Try now"
 contact-form-subject: "File Sharing Automation Solution - Free Trial Request"
 contact-form-message: |
   Hi,
 
   I'd like to get a Free Trial of your "File Sharing Automation Solution".
 
-  Looking forward to hear back form you.
+  Looking forward to hear back from you.
 
   Regards
 lang: en
@@ -39,7 +40,7 @@ Experience swift and efficient file transfers. Our SaaS solution is optimized fo
 - **Large File Support:** Transfer large files effortlessly without compromising speed.
 - **Easy-to-Use Interface:** Navigate with ease through our user-friendly interface.
 - **Web-Based Convenience:** Access and manage your files conveniently through our web-based platform.
-- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $9 per month.
+- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $19 per month.
 
 ## Elevate Your Efficiency Today!
 

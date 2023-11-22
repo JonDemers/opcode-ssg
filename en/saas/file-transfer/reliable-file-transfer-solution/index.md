@@ -3,13 +3,14 @@ layout: page-jumbotron
 title: Reliable File Transfer Solution
 description: "Deliver Files with Utmost Professionalism and Dependability"
 summary: "Welcome to our Reliable File Transfer SaaS solution! Whether you're a solo professional or part of a medium-sized organization, we understand the paramount importance of reliable and professional file transfers with your clients. Our platform is engineered to provide you with a dependable solution, ensuring every file is delivered with the utmost professionalism."
+try-now: "Try now"
 contact-form-subject: "Reliable File Transfer Solution - Free Trial Request"
 contact-form-message: |
   Hi,
 
   I'd like to get a Free Trial of your "Reliable File Transfer Solution".
 
-  Looking forward to hear back form you.
+  Looking forward to hear back from you.
 
   Regards
 lang: en
@@ -38,7 +39,7 @@ Rely on us for consistent and dependable file transfers. Our SaaS solution is bu
 - **Large File Support:** Transfer large files effortlessly without compromising speed.
 - **High-Speed Transfers:** Experience swift and efficient file transfers.
 - **Web-Based Convenience:** Access and manage your files conveniently through our web-based platform.
-- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $9 per month.
+- **Affordable Pricing:** Enhance client collaborations without breaking the bank, starting at just $19 per month.
 
 ## Elevate Your Professionalism Today!
 
