@@ -24,7 +24,7 @@
   <meta name="description" content="{{ page.description | escape }}" />
   <meta name="author" content="{{ lang_meta.title | escape }}" />
   <title>{{ page.title | escape }} | {{ lang_meta.title | escape }}</title>
-  <link rel="canonical" href="https://opcodesolutions.com{{ page.permalink | escape }}" />
+  <link rel="canonical" href="https://opcodesolutions.com{{ page.canonical | default: page.permalink | escape }}" />
   <meta property="og:title" content="{{ page.title | escape }}" />
   <meta property="og:locale" content="{{ lang | escape }}" />
   <meta property="og:description" content="{{ page.description | escape }}" />

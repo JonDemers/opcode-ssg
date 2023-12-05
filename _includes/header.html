@@ -11,8 +11,8 @@
           class="icon-bar"></span> <span class="icon-bar"></span>
       </button>
       <a title="{{ lang_meta.title | escape }}" class="navbar-brand" href="{{ lang_base_url }}">
-        <nobr><img alt="OpCode" width="20" height="20" src="/logo.svg" /> <span {% if page.url==lang_base_url
-            %} style="color: white" {% endif %}>OpCode</span></nobr>
+        <nobr><img alt="OpCode" width="20" height="20" src="/logo.svg" /> <span {% if page.url==lang_base_url or
+            page.url=='/' %} style="color: white" {% endif %}>OpCode</span></nobr>
       </a>
     </div>
     <div class="navbar-collapse collapse">
