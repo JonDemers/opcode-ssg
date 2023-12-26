@@ -2,6 +2,13 @@
   action="https://web-tools.opcodesolutions.com/mailer" target="_blank">
 
   <div class="form-group">
+    <label for="company" class="col-sm-2 control-label">Compagnie</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="company" id="company">
+    </div>
+  </div>
+
+  <div class="form-group">
     <label for="name" class="col-sm-2 control-label"><b class="text-danger">*</b> Nom</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" name="name" id="name" required>
@@ -12,13 +19,6 @@
     <label for="email" class="col-sm-2 control-label"><b class="text-danger">*</b> Courriel</label>
     <div class="col-sm-10">
       <input type="email" class="form-control" name="email" id="email" required>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <label for="company" class="col-sm-2 control-label">Compagnie</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" name="company" id="company" required>
     </div>
   </div>
 
@@ -38,6 +38,15 @@
     </div>
   </div>
 
+  {%- if page.contact-form-hide-promocode != true -%}
+  <div class="form-group">
+    <label for="promocode" class="col-sm-2 control-label">Promo code</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="promocode" id="promocode">
+    </div>
+  </div>
+  {%- endif -%}
+
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <input type="submit" class="btn btn-success" role="button" value="Envoyer">
@@ -52,6 +61,11 @@
 
 </form>
 <script>
+  var promocodeElement = document.getElementById('promocode');
+  if (promocodeElement) {
+    promocodeElement.value = new URLSearchParams(window.location.search).get('promocode');
+  }
+
   function getTimestampString(date) {
     var timestampPart = 'timestampPart';
     var timeZonePart = 'timeZonePart';
