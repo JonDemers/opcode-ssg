@@ -37,16 +37,14 @@
 {{ page.contact-form-message | escape }}</textarea>
     </div>
   </div>
-
-  {%- if page.contact-form-hide-promocode != true -%}
+  {% if page.contact-form-hide-promocode != true %}
   <div class="form-group">
     <label for="promocode" class="col-sm-2 control-label">Code promo</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" name="promocode" id="promocode">
     </div>
   </div>
-  {%- endif -%}
-
+  {% endif %}
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <input type="submit" class="btn btn-success" role="button" value="Send">
