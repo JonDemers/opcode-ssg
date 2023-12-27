@@ -39,7 +39,7 @@
   </div>
   {% if page.contact-form-hide-promocode != true %}
   <div class="form-group">
-    <label for="promocode" class="col-sm-2 control-label">Code promo</label>
+    <label for="promocode" class="col-sm-2 control-label">Promo Code</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" name="promocode" id="promocode">
     </div>
@@ -55,6 +55,7 @@
   <input type='hidden' name='page-submit-timestamp' id='page-submit-timestamp' value='No Javascript'>
   <input type='hidden' name='page-load-to-submit-time' id='page-load-to-submit-time' value='No Javascript'>
   <input type='hidden' name='recipient' id='recipient' value='opcode'>
+  <input type='hidden' name='lang' id='lang' value='en'>
   <input type='hidden' name='source' id='source' value='{{ page.permalink | escape }}'>
 
 </form>
