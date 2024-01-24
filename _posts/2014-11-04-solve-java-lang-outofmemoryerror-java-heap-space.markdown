@@ -2,6 +2,7 @@
 layout: post
 title: "How to fix java.lang.OutOfMemoryError: Java heap space"
 permalink: /tech/solve-java-lang-outofmemoryerror-java-heap-space/
+modified_date: 2023-10-15
 ---
 
 If you get an `OutOfMemoryError` with the message **"Java heap space"** (not to be confused with message "[PermGen space](/tech/java-lang-outofmemoryerror-permgen-space/)"), it simply means the JVM ran out of memory. When it occurs, you basically have 2 options:

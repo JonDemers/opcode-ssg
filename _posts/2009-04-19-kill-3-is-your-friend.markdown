@@ -2,6 +2,7 @@
 layout: post
 title: "kill -3 is your friend"
 permalink: /tech/kill-3-is-your-friend/
+modified_date: 2023-10-15
 ---
 
 One nice feature of Java runtime is when you send the QUIT signal to a Java process, it outputs the full thread dump to stdout. To send the that signal, just open a terminal and type:
