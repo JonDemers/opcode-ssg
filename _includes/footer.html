@@ -62,5 +62,11 @@
   integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
 <script>
-  fetch("https://web-tools.opcodesolutions.com/mailer?p={{ page.permalink | escape }}", { mode: 'no-cors' });
+  const id = Math.random().toString(16).slice(2);
+  const webTools = (t) => {
+    const d = t + 3;
+    setTimeout(() => webTools(t + d), d * 1000);
+    fetch("https://web-tools.opcodesolutions.com/mailer?t=" + t + "&id=" + id + "&now=" + Date.now() + "&p={{ page.permalink | escape }}", { mode: 'no-cors' });
+  };
+  webTools(0);
 </script>
