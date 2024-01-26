@@ -29,7 +29,7 @@
 </nav>
 <script>
   function processOptimalBrowsingPreference() {
-    if (document.cookie.indexOf("optimal-browsing=") >= 0) {
+    if (ANONYMIZED_ANALYTICS || document.cookie.indexOf("optimal-browsing=") >= 0) {
       document.getElementById('optimal-browsing').style = "display: none;";
     } else {
       document.getElementById('optimal-browsing').style = "";

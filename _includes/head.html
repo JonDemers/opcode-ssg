@@ -4,19 +4,32 @@
 
 <head>
   <!-- Google tag (gtag.js) -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    if (document.cookie.indexOf("optimal-browsing=accept") < 0) {
-      gtag('consent', 'default', {
-        'ad_storage': 'denied',
-        'analytics_storage': 'denied'
-      });
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-FZBKJQQG7D');
-  </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZBKJQQG7D"></script>
+  <script>
+    const ANONYMIZED_ANALYTICS = false;
+    if (ANONYMIZED_ANALYTICS) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-FZBKJQQG7D', {
+        send_page_view: true,
+        client_storage: 'none',
+        client_id: Math.random().toString(16).slice(2),
+      });
+    } else {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      if (document.cookie.indexOf("optimal-browsing=accept") < 0) {
+        gtag('consent', 'default', {
+          'ad_storage': 'denied',
+          'analytics_storage': 'denied'
+        });
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-FZBKJQQG7D');
+    }
+  </script>
+
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
