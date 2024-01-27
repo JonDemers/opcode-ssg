@@ -3,6 +3,7 @@ author:
   name: "OpCode Solutions"
   email: "info@opcodesolutions.com"
 description: "Optimize Your Processes"
+url: https://opcodesolutions.com
 
 site_meta:
   lang:
@@ -121,3 +122,6 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+feed:
+  posts_limit: 100000
