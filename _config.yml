@@ -124,4 +124,7 @@ exclude:
 #   - vendor/ruby/
 
 feed:
+  collections:
+    - pages
+    - posts
   posts_limit: 100000
