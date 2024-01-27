@@ -124,6 +124,7 @@ exclude:
 #   - vendor/ruby/
 
 feed:
+  excerpt_only: true
   collections:
     - pages
     - posts
