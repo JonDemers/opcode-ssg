@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Contact
+date: 2023-10-09
+last_modified_at: 2023-11-11
 permalink: /tech/contact/
 ---
 

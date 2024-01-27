@@ -1,6 +1,8 @@
 ---
 layout: page-jumbotron
 title: Secure File Sharing Solution
+date: 2023-11-12
+last_modified_at: 2023-11-22
 description: "Elevate Your Client Collaboration with Peace of Mind"
 summary: "Welcome to our Secure File Sharing SaaS solution! Whether you are a solo professional or part of a medium-sized organization, we recognize the crucial need for secure and efficient file transfers with your clients. Our platform has been meticulously crafted to empower your business with a seamless and secure file sharing experience."
 try-now: "Try now"

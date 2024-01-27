@@ -1,6 +1,8 @@
 ---
 layout: page-jumbotron
 title: Partage de Fichiers Sécurisé
+date: 2023-11-22
+last_modified_at: 2023-11-22
 description: "Améliorez la collaboration avec vos clients en toute tranquillité d'esprit"
 summary: "Bienvenue dans notre solution SaaS de partage de fichiers sécurisé! Que vous soyez un professionnel indépendant ou que vous fassiez partie d'une organisation de taille moyenne, nous reconnaissons le besoin crucial de transferts de fichiers sécurisés et efficaces avec vos clients. Notre solution a été méticuleusement conçue pour offrir à votre entreprise une expérience de partage de fichiers transparente et sécurisée."
 try-now: "Essayez maintenant"

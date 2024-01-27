@@ -1,6 +1,8 @@
 ---
 layout: page-md
 title: Politique de confidentialité de Solutions OpCode
+date: 2023-11-19
+last_modified_at: 2023-11-22
 description: "Cette politique de confidentialité décrit les politiques et procédures de Solutions OpCode (« nous », « notre ») concernant la collecte, l'utilisation et la divulgation d'informations personnelles lorsque vous utilisez notre site web, Solutions OpCode."
 lang: fr
 permalink: /fr/politique-de-confidentialite/

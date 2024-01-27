@@ -1,6 +1,8 @@
 ---
 layout: page-jumbotron
 title: File Sharing Automation Solution
+date: 2023-11-12
+last_modified_at: 2023-11-22
 description: "Boost Productivity with Effortless File Sharing Automation"
 summary: "Welcome to our File Sharing Automation SaaS solution! Whether you're a solo professional or part of a medium-sized organization, our platform is designed to supercharge your productivity through intelligent file transfer automations. Experience seamless integration, high-speed transfers, and efficient client collaborations with our cutting-edge solution."
 try-now: "Try now"

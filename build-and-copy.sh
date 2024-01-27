@@ -8,6 +8,12 @@ bundle exec jekyll clean && bundle exec jekyll build
 
 rm -rf ../opcodesolutions.github.io/*
 
+for file in _site/feed.xml _site/feed/pages.xml; do
+  sed -r -i 's|<published></published>||g' "$file"
+  sed -r -i 's|<updated></updated>||g' "$file"
+  xmllint --format "$file"  > "$file.new" && mv "$file.new" "$file"
+done
+
 cp -r _site/* ../opcodesolutions.github.io/
 
 # We have some "<a href='...'" backlinks to this old image from old wordpress website that no longer exists.

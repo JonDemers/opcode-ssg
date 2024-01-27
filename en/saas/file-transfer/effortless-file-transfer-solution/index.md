@@ -1,6 +1,8 @@
 ---
 layout: page-jumbotron
 title: Effortless File Transfer Solution
+date: 2023-11-12
+last_modified_at: 2023-11-22
 description: "Simplify Your Client Collaborations with Ease"
 summary: "Welcome to our Effortless File Transfer SaaS solution! Whether you're a solo professional or part of a medium-sized organization, we understand the importance of simplicity and efficiency in your file transfers with clients. Our platform is designed to make every file transfer a breeze, ensuring seamless collaboration that leaves a lasting impression."
 try-now: "Try now"
