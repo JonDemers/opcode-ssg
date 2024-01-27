@@ -2,7 +2,7 @@
 layout: post
 title: "HTTPS Wildcard Subdomain: DNS + Apache + Tomcat Config"
 permalink: /tech/https-wildcard-subdomain-dns-apache-tomcat-config/
-modified_date: 2023-10-15
+last_modified_at: 2024-01-27
 ---
 
 I recently had to configure HTTPS on a wildcard subdomain with Apache HTTP server as reverse proxy to a Tomcat backend. I had few more requirements:

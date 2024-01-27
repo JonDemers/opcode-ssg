@@ -2,7 +2,7 @@
 layout: page-md
 title: OpCode Solutions Privacy Policy
 date: 2023-11-17
-last_modified_at: 2023-11-18
+last_modified_at: 2024-01-27
 description: "This Privacy Policy outlines the policies and procedures of OpCode Solutions regarding the collection, use, and disclosure of personal information when you use our website, OpCode Solutions."
 permalink: /en/privacy-policy/
 ---

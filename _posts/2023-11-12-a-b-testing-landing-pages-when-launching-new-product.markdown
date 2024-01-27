@@ -2,7 +2,7 @@
 layout: post
 title: "A/B Testing Landing Pages When Launching New Product"
 permalink: /tech/a-b-testing-landing-pages-when-launching-new-product/
-modified_date: 2023-11-22
+last_modified_at: 2024-01-27
 ---
 
 #### So you have a new product or service? You are not sure how to promote it online?

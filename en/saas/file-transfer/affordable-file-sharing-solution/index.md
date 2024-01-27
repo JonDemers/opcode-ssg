@@ -2,7 +2,7 @@
 layout: page-jumbotron
 title: Affordable File Sharing Solution
 date: 2023-11-12
-last_modified_at: 2023-11-22
+last_modified_at: 2024-01-27
 description: "Elevate Your Client Collaborations Without Breaking the Bank"
 summary: "Welcome to our Affordable File Sharing SaaS solution! Whether you're a solo professional or part of a medium-sized organization, our platform is dedicated to making high-quality file sharing accessible to everyone. Experience professional, feature-rich client collaborations, all starting at an unbeatable price of just $19 per month."
 try-now: "Try now"

@@ -4,6 +4,13 @@ set -e
 
 cd $(dirname "$0")
 
+for file in $(grep -l -r 'last_modified_at: ' . | grep -v $(basename "$0")); do
+  last_modified_at=$(git log --date=iso "$file"|grep Date|head -n1|awk '{print $2}')
+  sed -r -i "s/^last_modified_at:.*/last_modified_at: $last_modified_at/" "$file"
+done
+
+
+
 bundle exec jekyll clean && bundle exec jekyll build
 
 rm -rf ../opcodesolutions.github.io/*

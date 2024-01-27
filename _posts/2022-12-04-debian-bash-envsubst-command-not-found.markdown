@@ -2,7 +2,7 @@
 layout: post
 title: "Debian -bash: envsubst: command not found"
 permalink: /tech/debian-bash-envsubst-command-not-found/
-modified_date: 2023-10-15
+last_modified_at: 2024-01-27
 ---
 
 ## Solution

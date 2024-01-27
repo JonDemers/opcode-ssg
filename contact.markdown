@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 date: 2023-10-09
-last_modified_at: 2023-11-11
+last_modified_at: 2024-01-27
 permalink: /tech/contact/
 ---
 

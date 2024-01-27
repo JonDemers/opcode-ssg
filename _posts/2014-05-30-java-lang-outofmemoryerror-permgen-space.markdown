@@ -2,7 +2,7 @@
 layout: post
 title: "How to fix java.lang.OutOfMemoryError: PermGen space"
 permalink: /tech/java-lang-outofmemoryerror-permgen-space/
-modified_date: 2023-10-15
+last_modified_at: 2024-01-27
 ---
 
 When you get an `OutOfMemoryError` with the message **"PermGen space"** (not to be confused with message "[Java heap space](/tech/solve-java-lang-outofmemoryerror-java-heap-space/)"), this means the memory used for **class definition** is exhausted. Fortunately, most of the time, this is easy to fix.
