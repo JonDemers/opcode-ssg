@@ -2,15 +2,15 @@
 layout: page-jumbotron
 title: File Sharing Automation Solution
 date: 2023-11-12
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 description: "Boost Productivity with Effortless File Sharing Automation"
 summary: "Welcome to our File Sharing Automation SaaS solution! Whether you're a solo professional or part of a medium-sized organization, our platform is designed to supercharge your productivity through intelligent file transfer automations. Experience seamless integration, high-speed transfers, and efficient client collaborations with our cutting-edge solution."
 try-now: "Try now"
-contact-form-subject: "File Sharing Automation Solution - Free Trial Request"
+contact-form-subject: "File Sharing Automation Solution - Demo Trial Request"
 contact-form-message: |
   Hi,
 
-  I'd like to get a Free Trial of your "File Sharing Automation Solution".
+  I'd like to get a Demo Trial of your "File Sharing Automation Solution".
 
   Looking forward to hear back from you.
 
@@ -48,6 +48,6 @@ Experience swift and efficient file transfers. Our SaaS solution is optimized fo
 
 Embrace the power of file sharing automation. Integrate seamlessly, experience high-speed transfers, and enhance your client collaborations effortlessly.
 
-[Sign Up Now](#start-your-free-trial) for a free trial and revolutionize your file sharing with automation! Trust our SaaS solution to be your partner in productivity and efficient client collaboration.
+[Sign Up Now](#start-your-demo-trial) for a demo trial and revolutionize your file sharing with automation! Trust our SaaS solution to be your partner in productivity and efficient client collaboration.
 
-{% include free-trial-en.md %}
+{% include demo-trial-en.md %}

@@ -2,7 +2,7 @@
 layout: page-jumbotron
 title: Partage de Fichiers Sécurisé
 date: 2023-11-22
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 description: "Améliorez la collaboration avec vos clients en toute tranquillité d'esprit"
 summary: "Bienvenue dans notre solution SaaS de partage de fichiers sécurisé! Que vous soyez un professionnel indépendant ou que vous fassiez partie d'une organisation de taille moyenne, nous reconnaissons le besoin crucial de transferts de fichiers sécurisés et efficaces avec vos clients. Notre solution a été méticuleusement conçue pour offrir à votre entreprise une expérience de partage de fichiers transparente et sécurisée."
 try-now: "Essayez maintenant"
@@ -47,12 +47,12 @@ Simplifiez vos processus de partage de fichiers. Notre interface conviviale est 
 - **Interface Web:** Accédez et gérez facilement vos fichiers via notre plate-forme Web.
 - **Prix abordable:** Améliorez les collaborations clients sans vous ruiner, à partir de seulement 19$ par mois.
 
-<span id="start-your-free-trial"></span>
+<span id="start-your-demo-trial"></span>
 
 ## Commencer aujourd'hui!
 
 Rejoignez les rangs des entreprises qui privilégient le partage de fichiers sécurisé et professionnel avec leurs clients. Améliorez votre collaboration, rationalisez votre flux de travail et renforcez vos relations avec vos clients.
 
-[Inscrivez-vous maintenant](#start-your-free-trial) pour un essai gratuit et découvrez l'avenir du partage de fichiers sécurisé! Faites confiance à notre solution SaaS pour être votre partenaire fiable dans la collaboration client.
+[Inscrivez-vous maintenant](#start-your-demo-trial) pour un essai gratuit et découvrez l'avenir du partage de fichiers sécurisé! Faites confiance à notre solution SaaS pour être votre partenaire fiable dans la collaboration client.
 
-{% include free-trial-fr.md %}
+{% include demo-trial-fr.md %}

@@ -2,15 +2,15 @@
 layout: page-jumbotron
 title: Secure File Sharing Solution
 date: 2023-11-12
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 description: "Elevate Your Client Collaboration with Peace of Mind"
 summary: "Welcome to our Secure File Sharing SaaS solution! Whether you are a solo professional or part of a medium-sized organization, we recognize the crucial need for secure and efficient file transfers with your clients. Our platform has been meticulously crafted to empower your business with a seamless and secure file sharing experience."
 try-now: "Try now"
-contact-form-subject: "Secure File Sharing Solution - Free Trial Request"
+contact-form-subject: "Secure File Sharing Solution - Demo Trial Request"
 contact-form-message: |
   Hi,
 
-  I'd like to get a Free Trial of your "Secure File Sharing Solution".
+  I'd like to get a Demo Trial of your "Secure File Sharing Solution".
 
   Looking forward to hear back from you.
 
@@ -51,6 +51,6 @@ Simplify your file sharing processes. Our user-friendly interface is designed wi
 
 Join the ranks of businesses that prioritize secure and professional file sharing with their clients. Elevate your collaboration game, streamline your workflow, and strengthen your client relationships.
 
-[Sign Up Now](#start-your-free-trial) for a free trial and experience the future of secure file sharing! Trust our SaaS solution to be your reliable partner in client collaboration.
+[Sign Up Now](#start-your-demo-trial) for a demo trial and experience the future of secure file sharing! Trust our SaaS solution to be your reliable partner in client collaboration.
 
-{% include free-trial-en.md %}
+{% include demo-trial-en.md %}

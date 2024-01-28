@@ -2,15 +2,15 @@
 layout: page-jumbotron
 title: Effortless File Transfer Solution
 date: 2023-11-12
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 description: "Simplify Your Client Collaborations with Ease"
 summary: "Welcome to our Effortless File Transfer SaaS solution! Whether you're a solo professional or part of a medium-sized organization, we understand the importance of simplicity and efficiency in your file transfers with clients. Our platform is designed to make every file transfer a breeze, ensuring seamless collaboration that leaves a lasting impression."
 try-now: "Try now"
-contact-form-subject: "Effortless File Transfer Solution - Free Trial Request"
+contact-form-subject: "Effortless File Transfer Solution - Demo Trial Request"
 contact-form-message: |
   Hi,
 
-  I'd like to get a Free Trial of your "Effortless File Transfer Solution".
+  I'd like to get a Demo Trial of your "Effortless File Transfer Solution".
 
   Looking forward to hear back from you.
 
@@ -48,6 +48,6 @@ Simplicity is key. Our user-friendly interface is crafted for easy navigation an
 
 Join the ranks of businesses that prioritize simple and efficient file transfers with their clients. Elevate your collaboration, streamline your workflow, and leave a lasting impression.
 
-[Sign Up Now](#start-your-free-trial) for a free trial and experience the future of effortless file transfers! Trust our SaaS solution to be your partner in seamless client collaboration.
+[Sign Up Now](#start-your-demo-trial) for a demo trial and experience the future of effortless file transfers! Trust our SaaS solution to be your partner in seamless client collaboration.
 
-{% include free-trial-en.md %}
+{% include demo-trial-en.md %}

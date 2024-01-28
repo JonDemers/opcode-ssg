@@ -2,15 +2,15 @@
 layout: page-jumbotron
 title: Scalable File Sharing Solution
 date: 2023-11-12
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 description: "Seamlessly Scale Your File Sharing Capabilities"
 summary: "Welcome to our Scalable File Sharing SaaS solution! Whether you are a solo professional or part of a growing organization with up to 100 employees, our platform is tailored to meet your expanding file sharing needs. Experience the freedom of limitless collaboration with clients while ensuring a seamless and scalable solution."
 try-now: "Try now"
-contact-form-subject: "Scalable File Sharing Solution - Free Trial Request"
+contact-form-subject: "Scalable File Sharing Solution - Demo Trial Request"
 contact-form-message: |
   Hi,
 
-  I'd like to get a Free Trial of your "Scalable File Sharing Solution".
+  I'd like to get a Demo Trial of your "Scalable File Sharing Solution".
 
   Looking forward to hear back from you.
 
@@ -45,6 +45,6 @@ Embrace growth without limitations. Our scalable file sharing solution adapts to
 
 Join the ranks of businesses that prioritize scalable and seamless file sharing with their clients. Elevate your collaboration game, streamline your workflow, and strengthen your client relationships.
 
-[Sign Up Now](#start-your-free-trial) for a free trial and unlock the potential of scalable file sharing! Trust our SaaS solution to be your reliable partner in client collaboration and business growth.
+[Sign Up Now](#start-your-demo-trial) for a demo trial and unlock the potential of scalable file sharing! Trust our SaaS solution to be your reliable partner in client collaboration and business growth.
 
-{% include free-trial-en.md %}
+{% include demo-trial-en.md %}

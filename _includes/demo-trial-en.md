@@ -1,6 +1,6 @@
-## Start Your Free Trial
+## Start Your Demo Trial
 
-Just fill the form below. Providing us with your company name will allow us to personalize your Free Trial.
+Just fill the form below. Providing us with your company name will allow us to personalize your Demo Trial.
 
 <br>
 

@@ -2,7 +2,7 @@
 layout: post
 title: "A/B Testing Landing Pages When Launching New Product"
 permalink: /tech/a-b-testing-landing-pages-when-launching-new-product/
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 ---
 
 #### So you have a new product or service? You are not sure how to promote it online?
@@ -13,7 +13,7 @@ When launching a new product, it is sometimes hard to know in advance what key f
 
 ## Setting Up The Test
 
-In our case, our SaaS File Transfer Solution has many interesting features. The test consist to select 6 prominent features of the product and create a landing page for each. Each page will focus on the selected prominent feature first, but also mention the other features. On each page, we have a "Free Trial" form inviting our prospect to try the product.
+In our case, our SaaS File Transfer Solution has many interesting features. The test consist to select 6 prominent features of the product and create a landing page for each. Each page will focus on the selected prominent feature first, but also mention the other features. On each page, we have a "Demo Trial" form inviting our prospect to try the product.
 
 - [Affordable File Sharing Solution](/en/saas/file-transfer/affordable-file-sharing-solution/)
 - [Scalable File Sharing Solution](/en/saas/file-transfer/scalable-file-sharing-solution/)
