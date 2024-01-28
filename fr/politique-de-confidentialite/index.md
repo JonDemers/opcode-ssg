@@ -2,7 +2,7 @@
 layout: page-md
 title: Politique de confidentialité de Solutions OpCode
 date: 2023-11-19
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 description: "Cette politique de confidentialité décrit les politiques et procédures de Solutions OpCode (« nous », « notre ») concernant la collecte, l'utilisation et la divulgation d'informations personnelles lorsque vous utilisez notre site web, Solutions OpCode."
 lang: fr
 permalink: /fr/politique-de-confidentialite/
@@ -27,11 +27,13 @@ Nous collectons des informations de base sur les visiteurs de notre site Web, y 
 
 Ces informations sont collectées à des fins d'administration et de maintenance de routine et ne sont pas personnellement identifiables.
 
+{% comment %}
 ## Cookies
 
 Nous utilisons des cookies pour stocker des informations sur vos préférences et votre historique de navigation. Les cookies améliorent votre expérience en fournissant un contenu personnalisé. Vous avez la possibilité d'ajuster les paramètres de votre navigateur pour refuser les cookies, mais veuillez noter que cela peut avoir un impact sur votre capacité à utiliser certaines fonctionnalités de notre site Web.
 
 <button type="button" class="btn btn-primary" onclick="resetOptimalBrowsing()">Réinitialiser les préférences</button>
+{% endcomment %}
 
 ## Publicité et autres tiers
 

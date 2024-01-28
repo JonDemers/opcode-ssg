@@ -2,7 +2,7 @@
 layout: page-md
 title: OpCode Solutions Privacy Policy
 date: 2023-11-17
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 description: "This Privacy Policy outlines the policies and procedures of OpCode Solutions regarding the collection, use, and disclosure of personal information when you use our website, OpCode Solutions."
 permalink: /en/privacy-policy/
 ---
@@ -26,11 +26,13 @@ We collect basic information about our website visitors, including but not limit
 
 This information is gathered for routine administration and maintenance purposes and is not personally identifiable.
 
+{% comment %}
 ## Cookies
 
 We utilize cookies to store information about your preferences and browsing history. Cookies enhance your experience by providing customized content. You have the option to adjust your browser settings to refuse cookies, but please note that this may impact your ability to use certain features of our website.
 
 <button type="button" class="btn btn-primary" onclick="resetOptimalBrowsing()">Reset Preferences</button>
+{% endcomment %}
 
 ## Advertisement and Other Third Parties
 
