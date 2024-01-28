@@ -3,12 +3,12 @@
 {%- assign lang_meta = site.site_meta.lang[lang] -%}
 <div class="container">
   <hr>
-  <footer class="text-muted">
+  <footer>
     {%- assign privacy_policy_path = site.main_pages.privacy_policy[lang] -%}
     {%- assign privacy_policy_page = site.pages | where: "path", privacy_policy_path | first -%}
     {%- assign privacy_policy_url = privacy_policy_page.url | relative_url -%}
     {%- assign privacy_policy_text = lang_meta.privacy_policy | escape -%}
-    <p class="pull-left"><a title="{{ privacy_policy_text }}" href="{{ privacy_policy_url }}" class="text-muted">{{
+    <p class="pull-left"><a title="{{ privacy_policy_text }}" href="{{ privacy_policy_url }}">{{
         privacy_policy_text }}</a></p>
     <p class="pull-right">&copy; {{ lang_meta.title | escape }} 2024</p>
   </footer>
