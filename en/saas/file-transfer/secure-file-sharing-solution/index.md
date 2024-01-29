@@ -2,9 +2,9 @@
 layout: page-jumbotron
 title: Secure File Sharing Solution
 date: 2023-11-12
-last_modified_at: 2024-01-28
+last_modified_at: 2024-01-29
 description: "Elevate Your Client Collaboration with Peace of Mind"
-summary: "Welcome to our Secure File Sharing SaaS solution! Whether you are a solo professional or part of a medium-sized organization, we recognize the crucial need for secure and efficient file transfers with your clients. Our platform has been meticulously crafted to empower your business with a seamless and secure file sharing experience."
+summary: "Experience our Secure File Sharing SaaS, perfect for solo pros and medium-sized businesses. Prioritizing seamless and secure transfers."
 try-now: "Try now"
 contact-form-subject: "Secure File Sharing Solution - Demo Trial Request"
 contact-form-message: |
@@ -18,6 +18,15 @@ contact-form-message: |
 lang: en
 permalink: /en/saas/file-transfer/secure-file-sharing-solution/
 ---
+
+## Dedicated client spaces
+
+Each client has its own login and private space. Create as many client spaces as you need.
+
+<a href="../demo.png"><img width="100%" src="../demo.png" alt="Heap Dump in VisualVM" title="Heap Dump in VisualVM"></a>
+
+---
+
 ## Key Features:
 
 ### Authenticated Transfers
