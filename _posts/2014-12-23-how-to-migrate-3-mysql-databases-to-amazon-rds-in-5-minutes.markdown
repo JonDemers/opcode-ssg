@@ -2,7 +2,7 @@
 layout: post
 title: "How to Migrate 3 MySQL Databases to Amazon RDS in 5 Minutes"
 permalink: /tech/how-to-migrate-3-mysql-databases-to-amazon-rds-in-5-minutes/
-last_modified_at: 2024-01-27
+last_modified_at: 2025-09-23
 ---
 
 I had a LAMT (Linux-Apache-MySQL-Tomcat) on [Amazon EC2](https://aws.amazon.com/ec2/) and I wanted to move all remaining MySQL databases (3) to an existing [Amazon RDS](https://aws.amazon.com/rds/) instance. This would allow me to shutdown the MySQL instance on EC2, freeing RAM for Tomcat and leveraging RDS automated backups for those 3 databases in case of a disaster. The databases to migrate only contain low volume TEST data, but I already have that RDS instance, so why not use it?

@@ -2,7 +2,7 @@
 layout: post
 title: "ImageIO.read() causes OutOfMemoryError"
 permalink: /tech/imageio-read-causes-outofmemoryerror/
-last_modified_at: 2024-01-27
+last_modified_at: 2025-09-23
 ---
 
 ## The problem

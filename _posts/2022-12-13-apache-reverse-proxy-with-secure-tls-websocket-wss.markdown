@@ -2,7 +2,7 @@
 layout: post
 title: "Apache Reverse Proxy with Secure TLS WebSocket (wss://)"
 permalink: /tech/apache-reverse-proxy-with-secure-tls-websocket-wss/
-last_modified_at: 2024-01-27
+last_modified_at: 2025-09-23
 ---
 
 Configuring Apache reverse proxy with WebSocket can be tricky. It is even trickier if the WebSocket is secured with TLS (wss://). Here is how to do it.

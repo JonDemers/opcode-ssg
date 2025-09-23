@@ -2,7 +2,7 @@
 layout: post
 title: "VisualVM slow with heap dump files"
 permalink: /tech/visualvm-slow-with-heap-dump-files/
-last_modified_at: 2024-01-27
+last_modified_at: 2025-09-23
 ---
 
 One great feature of [VisualVM](https://visualvm.github.io/) is that it can read heap dump files. Heap dumps are useful to diagnose memory leaks. See this post for more details about [memory leaks and how to solve them](/tech/solve-java-lang-outofmemoryerror-java-heap-space/).

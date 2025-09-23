@@ -2,7 +2,7 @@
 layout: post
 title: "Debian -bash: netstat: command not found"
 permalink: /tech/debian-bash-netstat-command-not-found/
-last_modified_at: 2024-01-27
+last_modified_at: 2025-09-23
 ---
 
 ## Solution

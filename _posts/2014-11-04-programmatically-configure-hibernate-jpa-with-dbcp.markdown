@@ -2,7 +2,7 @@
 layout: post
 title: "Programmatically Configure Hibernate (JPA) with DBCP"
 permalink: /tech/programmatically-configure-hibernate-jpa-with-dbcp/
-last_modified_at: 2024-01-27
+last_modified_at: 2025-09-23
 ---
 
 I recently had deadlock issues with c3p0 and statement caching. Long story short, after investigating c3p0 code, I decided to switch to [DBCP](https://commons.apache.org/proper/commons-dbcp/) (maybe I'll write a post with the long story).
