@@ -23,4 +23,4 @@ You can get this error if you redeploy an application (webapp) several time with
 
 If none of the above works, you are in trouble 🙁 Seriously, unless you hacked the class-loading of the JVM or application container, you should not have that problem. Or maybe it is a bug in a library you are using or in your application container. You can try to upgrade to latest versions. If you hacked the class-loaders yourself, you may want to reconsider it. Why did you do that? Unless you are developing a JVM or an application container, you should not have to do that.
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*
+*Author: [Jonathan Demers](https://jonathandemers.ca/ "Jonathan Demers"). See on [LinkedIn](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers on LinkedIn").*

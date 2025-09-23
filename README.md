@@ -2,7 +2,18 @@
 
 ## Setup
 
-Install Jekyll prerequisites, see [https://jekyllrb.com/docs/installation/ubuntu/](https://jekyllrb.com/docs/installation/ubuntu/)
+Install rbenv and use ruby version 3.2.6
+
+```bash
+sudo apt install rbenv
+eval "$(rbenv init -)"
+rbenv install 3.2.6
+rbenv local 3.2.6
+rbenv rehash
+ruby --version
+gem install jekyll bundler
+bundle install
+```
 
 Clone the 2 repos side by side
 
@@ -15,6 +26,7 @@ Work in opcode-ssg
 
 ```bash
 cd opcode-ssg
+eval "$(rbenv init -)"
 ```
 
 ## Create content and serve locally

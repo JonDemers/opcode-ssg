@@ -30,4 +30,4 @@ $ jvisualvm -J-Djava.io.tmpdir=/tmp/ramdisk
 
 Now VisualVM is much much faster and I can investigate and find the root cause of that memory leak much faster.
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*
+*Author: [Jonathan Demers](https://jonathandemers.ca/ "Jonathan Demers"). See on [LinkedIn](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers on LinkedIn").*

@@ -67,4 +67,4 @@ Once the test is running, we may realize we do not get much visits to our site. 
 - **Description:** Trust our SaaS for secure and professional file transfers. Elevate client collaboration with peace of mind.
 
 
-*Author: [Jonathan Demers](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers")*
+*Author: [Jonathan Demers](https://jonathandemers.ca/ "Jonathan Demers"). See on [LinkedIn](https://www.linkedin.com/in/jonathan-demers-ing/ "Jonathan Demers on LinkedIn").*
